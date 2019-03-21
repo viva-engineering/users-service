@@ -1,50 +1,25 @@
 
-import { createServer } from '@celeri/http-server';
-import { requestLogger } from '@celeri/request-logger';
+import { config } from './config';
+import { isMaster } from 'cluster';
 
+// Enable configuring the stack trace limit on errors
+if (config.logging.stackTraceLimit) {
+	Error.stackTraceLimit = config.logging.stackTraceLimit;
+}
 
-
-// Server
-
-const server = createServer({
-	// 
+// Make sure node.js warnings get properly logged
+process.on('warning', (warning) => {
+	console.warn(warning.stack);
 });
 
-server.server.listen(8080, '0.0.0.0', () => {
-	console.log('Server listening on port 8080');
-});
+// If we are running in single-threaded mode, just start the server
+if (! config.cluster.threads || ! isMaster) {
+	console.log(`Worker started pid=${process.pid}`);
+	require('./worker');
+}
 
-
-
-// Logger
-
-const logger = requestLogger({
-	log: (message: string) => console.log(message),
-	format: `:iso-time request: proto=:proto method=:method path=:path status=:status-code duration=:duration`
-});
-
-server.use(logger);
-
-
-
-// Router
-
-const router = server.router({
-	notFound: ({ req, res }) => {
-		res.writeHead(404, { 'content-type': 'application/json' });
-		res.end('{"error":"Not Found"}');
-	}
-});
-
-server.use(router);
-
-
-
-// Endpoints
-
-server
-	.get('/')
-	.use(({ req, res }) => {
-		res.writeHead(200, { 'content-type': 'application/json' });
-		res.end('{"message":"hello"}');
-	});
+// Otherwise, start up the clustered system
+else {
+	console.log(`Master started pid=${process.pid}`);
+	require('./master');
+}

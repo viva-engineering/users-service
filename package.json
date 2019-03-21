@@ -1,0 +1,32 @@
+{
+  "name": "@viva/server-template",
+  "version": "",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node ./build/start.js",
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celeri-server/router.git"
+  },
+  "keywords": [],
+  "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viva/server-template/issues"
+  },
+  "dependencies": {
+    "@celeri/body-parser": "^2.0.0",
+    "@celeri/http-error": "^2.0.0",
+    "@celeri/http-server": "^2.0.4",
+    "@celeri/query-parser": "^2.0.0",
+    "@celeri/request-logger": "^2.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
+  },
+  "devDependencies": {
+    "@types/node": "^11.11.4"
+  }
+}

@@ -5,11 +5,14 @@ const http = {
 };
 
 const logging = {
-	stackTraceLimit: 100
+	stackTraceLimit: 100,
+	logLevel: 'debug',
+	output: 'pretty',
+	colors: true
 };
 
 const cluster = {
-	threads: 1,
+	threads: 0,
 	heapSize: 1024
 };
 

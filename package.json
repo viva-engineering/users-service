@@ -1,10 +1,11 @@
 {
-  "name": "@viva/server-template",
+  "name": "@viva-eng/server-template",
   "version": "",
   "description": "",
   "main": "build/index.js",
   "scripts": {
     "start": "node ./build/start.js",
+    "clean": "rimraf ./build",
     "build": "tsc --build tsconfig.json"
   },
   "repository": {
@@ -22,11 +23,14 @@
     "@celeri/http-error": "^2.0.0",
     "@celeri/http-server": "^2.0.4",
     "@celeri/query-parser": "^2.0.0",
-    "@celeri/request-logger": "^2.0.3",
-    "tslint": "^5.14.0",
-    "typescript": "^3.3.4000"
+    "@celeri/request-logger": "^2.0.4",
+    "@viva-eng/cluster": "^1.0.0",
+    "@viva-eng/logger": "^1.0.11"
   },
   "devDependencies": {
-    "@types/node": "^11.11.4"
+    "@types/node": "^11.11.4",
+    "rimraf": "^2.6.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.4000"
   }
 }

@@ -17,7 +17,9 @@
     },
     "moduleResolution": "node",
     "typeRoots": [
-        "./node_modules/@types/"
+        "./node_modules/@types/",
+        "./node_modules/@celeri/",
+        "./node_modules/@viva-eng/"
     ],
     "include": [
         "src/**/*.ts"

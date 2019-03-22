@@ -1,6 +1,8 @@
 
 import { config } from './config';
-import { isMaster } from 'cluster';
+import { logger } from './logger';
+import { initCluster } from '@viva-eng/cluster';
+import { resolve } from 'path';
 
 // Enable configuring the stack trace limit on errors
 if (config.logging.stackTraceLimit) {
@@ -9,17 +11,13 @@ if (config.logging.stackTraceLimit) {
 
 // Make sure node.js warnings get properly logged
 process.on('warning', (warning) => {
-	console.warn(warning.stack);
+	logger.warn(warning.stack);
 });
 
-// If we are running in single-threaded mode, just start the server
-if (! config.cluster.threads || ! isMaster) {
-	console.log(`Worker started pid=${process.pid}`);
-	require('./worker');
-}
-
-// Otherwise, start up the clustered system
-else {
-	console.log(`Master started pid=${process.pid}`);
-	require('./master');
-}
+initCluster({
+	threads: config.cluster.threads,
+	heapSize: config.cluster.heapSize,
+	extraCpus: config.cluster.extraCpus,
+	log: logger.verbose.bind(logger),
+	worker: resolve(__dirname, 'server.js')
+});

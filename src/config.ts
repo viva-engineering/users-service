@@ -14,7 +14,16 @@ interface Config {
 	/** Configuration for server output/logging  */
 	logging: {
 		/** The max stack trace length to get on errors */
-		stackTraceLimit: number
+		stackTraceLimit: number,
+
+		/** The log level on the logger */
+		logLevel: 'error' | 'warn' | 'info' | 'verbose' | 'debug' | 'silly',
+
+		/** The output format */
+		output: 'json' | 'pretty',
+
+		/** Should the logs be colored */
+		colors: boolean
 	},
 
 	/** Configuration for the worker cluster */

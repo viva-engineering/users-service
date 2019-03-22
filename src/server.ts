@@ -1,7 +1,8 @@
 
-import { createServer } from '@celeri/http-server';
+import { createServer, Request, Response } from '@celeri/http-server';
 import { requestLogger } from '@celeri/request-logger';
 import { config } from './config';
+import { logger } from './logger';
 
 
 
@@ -12,32 +13,41 @@ const server = createServer({
 });
 
 server.server.listen(config.http.port, config.http.address, () => {
-	console.log(`Server listening on port ${config.http.port}`);
+	logger.info('HTTP server is listening', {
+		port: config.http.port,
+		address: config.http.address
+	});
 });
 
 
 
 // Logger
 
-const logger = requestLogger({
-	log: (message: string) => console.log(message),
-	format: `:iso-time request: proto=:proto method=:method path=:path status=:status-code duration=:duration`
+const loggerMiddleware = requestLogger({
+	log: (message: string, req: Request, res: Response, duration: string, finished: boolean) => {
+		logger.info('Incomming request', {
+			method: req.method,
+			path: req.pathname,
+			status: res.statusCode,
+			duration
+		});
+	}
 });
 
-server.use(logger);
+server.use(loggerMiddleware);
 
 
 
 // Router
 
-const router = server.router({
+const routerMiddleware = server.router({
 	notFound: ({ req, res }) => {
 		res.writeHead(404, { 'content-type': 'application/json' });
 		res.end('{"error":"Not Found"}');
 	}
 });
 
-server.use(router);
+server.use(routerMiddleware);
 
 
 
@@ -45,7 +55,7 @@ server.use(router);
 
 server
 	.get('/')
-	.use(({ req, res }) => {
+	.use(async ({ req, res }) => {
 		res.writeHead(200, { 'content-type': 'application/json' });
 		res.end('{"message":"hello"}');
 	});

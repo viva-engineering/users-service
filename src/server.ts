@@ -55,7 +55,7 @@ server.use(routerMiddleware);
 
 server
 	.get('/')
-	.use(async ({ req, res }) => {
+	.use(({ req, res }) => {
 		res.writeHead(200, { 'content-type': 'application/json' });
 		res.end('{"message":"hello"}');
 	});

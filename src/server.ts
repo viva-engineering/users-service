@@ -3,12 +3,14 @@ import { createServer, Request, Response } from '@celeri/http-server';
 import { requestLogger } from '@celeri/request-logger';
 import { config } from './config';
 import { logger } from './logger';
+import { loadEndpoints } from './endpoints';
+import { addOnShutdown } from '@viva-eng/cluster';
 
 
 
 // Server
 
-const server = createServer({
+export const server = createServer({
 	// 
 });
 
@@ -52,10 +54,4 @@ server.use(routerMiddleware);
 
 
 // Endpoints
-
-server
-	.get('/')
-	.use(({ req, res }) => {
-		res.writeHead(200, { 'content-type': 'application/json' });
-		res.end('{"message":"hello"}');
-	});
+loadEndpoints();

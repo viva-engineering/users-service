@@ -5,6 +5,7 @@ import { config } from './config';
 import { logger } from './logger';
 import { loadEndpoints } from './endpoints';
 import { addOnShutdown } from '@viva-eng/cluster';
+import { errorHandler } from '@celeri/http-error';
 
 
 
@@ -55,3 +56,9 @@ server.use(routerMiddleware);
 
 // Endpoints
 loadEndpoints();
+
+
+
+// Finally, register the error handler
+
+server.catch(errorHandler());

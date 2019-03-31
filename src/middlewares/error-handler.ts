@@ -4,6 +4,7 @@ import { errorHandler as middleware, HttpError } from '@celeri/http-error';
 
 interface ErrorPayload {
 	message: string;
+	additionalInfo?: any;
 }
 
 export const formatError = ({ error }) : ErrorPayload => {
@@ -16,7 +17,8 @@ export const formatError = ({ error }) : ErrorPayload => {
 	}
 
 	return {
-		message: error.message
+		message: error.message,
+		additionalInfo: error.meta
 	};
 };
 

@@ -17,9 +17,13 @@ const runningRequests: Set<Request> = new Set();
 addOnShutdown(async () => {
 	const sleep = () => new Promise((resolve) => setTimeout(resolve, 100));
 
+	logger.verbose('Waiting until all running HTTP requests complete');
+
 	while (runningRequests.size) {
 		await sleep();
 	}
+
+	logger.verbose('HTTP requests are all complete');
 });
 
 

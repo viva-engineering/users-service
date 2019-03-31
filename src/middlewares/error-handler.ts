@@ -22,7 +22,9 @@ export const errorHandler: ErrorMiddlewareFunction<MiddlewareInput> = async ({ r
 		const payload = formatError(error);
 
 		res.writeHead(error.statusCode, { 'content-type': 'application/json' });
-		res.end()
+		res.end();
+
+		return;
 	}
 
 	if (error instanceof BodyParserError) {

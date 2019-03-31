@@ -19,10 +19,10 @@ const formatError = (error: HttpError) : ErrorPayload => {
 
 export const errorHandler: ErrorMiddlewareFunction<MiddlewareInput> = async ({ req, res, error }) => {
 	if (error instanceof HttpError) {
-		const payload = formatError(error);
+		const payload = JSON.stringify(formatError(error));
 
 		res.writeHead(error.statusCode, { 'content-type': 'application/json' });
-		res.end();
+		res.end(payload);
 
 		return;
 	}

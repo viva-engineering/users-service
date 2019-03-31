@@ -19,10 +19,10 @@
     "url": "https://github.com/viva/server-template/issues"
   },
   "dependencies": {
-    "@celeri/body-parser": "^2.0.1",
+    "@celeri/body-parser": "^2.0.2",
     "@celeri/caching": "^1.0.0",
     "@celeri/http-error": "^2.0.0",
-    "@celeri/http-server": "^2.0.4",
+    "@celeri/http-server": "^2.0.5",
     "@celeri/query-parser": "^2.0.0",
     "@celeri/request-logger": "^2.0.4",
     "@viva-eng/cluster": "^1.0.5",

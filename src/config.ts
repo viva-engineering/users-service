@@ -1,5 +1,6 @@
 
 import { PoolConfig } from 'mysql';
+import { Options as HasherOptions } from 'argon2';
 
 export const config = require('../config') as Config;
 
@@ -51,5 +52,8 @@ interface Config {
 	mysql: {
 		master: PoolConfig,
 		replica: PoolConfig
-	}
+	},
+
+	/** Configuration for the credential hasher */
+	hasher: HasherOptions & { raw?: false }
 }

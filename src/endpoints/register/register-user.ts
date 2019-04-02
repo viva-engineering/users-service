@@ -1,22 +1,14 @@
 
-import { hash } from '../../hasher';
 import { logger } from '../../logger';
-import { LookupUserByEmailQuery } from '../../queries/lookup-user';
-import { RegistrationRequest } from './request-payload';
+import { hash } from '../../utils/hasher';
+import { db, TransactionType } from '../../database';
 import { HttpError } from '@celeri/http-error';
+import { RegistrationRequest } from './request-payload';
+import { LookupUserIdByEmailQuery, CreateUserQuery, CreateCredentialsQuery } from '../../database/queries';
 
-const lookupUserByEmail = new LookupUserByEmailQuery();
-
-/**
- * Checks if a user with the given email address already exists
- *
- * @param email The email address to look for
- */
-const userAlreadyExists = async (email: string) : Promise<boolean> => {
-	const records = await lookupUserByEmail.run({ email });
-
-	return !! records.length;
-};
+const lookupUserByEmail = new LookupUserIdByEmailQuery();
+const createUser = new CreateUserQuery();
+const createCredentials = new CreateCredentialsQuery();
 
 /**
  * Attempts to register a new user with the given info
@@ -24,17 +16,42 @@ const userAlreadyExists = async (email: string) : Promise<boolean> => {
  * @param body The request payload from the `POST /registration` request
  */
 export const registerUser = async (body: RegistrationRequest) : Promise<void> => {
-	if (await userAlreadyExists(body.email)) {
-		throw new HttpError(409, 'Email address already in use');
+	const connection = await db.startTransaction(TransactionType.ReadWrite);
+
+	try {
+		const existingUser = await lookupUserByEmail.run({ email: body.email }, connection);
+
+		// If a user with that email address already exists, stop here
+		if (existingUser.length) {
+			throw new HttpError(409, 'Email address already in use');
+		}
+
+		// Hash the password for storage
+		const passwordDigest = await hashNewPassword(body.password);
+
+		// Create the new user record
+		const createUserResult = await createUser.run({ email: body.email }, connection);
+
+		const credentialsRecord = {
+			userId: createUserResult.insertId as number,
+			passwordDigest
+		}
+
+		// Create the new credentials record
+		await createCredentials.run(credentialsRecord, connection);
+
+		await db.commitTransaction(connection);
+
+		connection.release();
 	}
 
-	const passwordDigest = await hashNewPassword(body.password);
+	catch (error) {
+		await db.rollbackTransaction(connection);
 
-	logger.info('Everything looks good, ready to insert new records', {
-		email: body.email,
-		password: body.password,
-		digest: passwordDigest
-	});
+		connection.release();
+
+		throw error;
+	}
 };
 
 /**

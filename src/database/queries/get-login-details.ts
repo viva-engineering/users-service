@@ -4,6 +4,9 @@ import { userTable, credentialsTable } from '../tables';
 import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
+const user = userTable.columns;
+const creds = credentialsTable.columns;
+
 export interface GetLoginDetailsRecord {
 	user_id: number;
 	email: string;
@@ -26,12 +29,11 @@ export interface GetLoginDetailsParams {
  */
 export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
 	protected readonly prepared: string;
+	
+	public readonly template = `select ... from ${userTable.name} left outer join ${credentialsTable.name} where ${user.email} = ?`;
 
 	constructor() {
 		super();
-
-		const user = userTable.columns;
-		const creds = credentialsTable.columns;
 
 		this.prepared = `
 			select
@@ -47,7 +49,7 @@ export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, Get
 				creds.${creds.passwordExpiration} < now() as password_expired
 			from ${userTable.name} user
 			left outer join ${credentialsTable.name} creds
-				on user.id = creds.user_id
+				on user.${user.id} = creds.${creds.userId}
 			where user.email = ?
 		`;
 	}
@@ -60,15 +62,11 @@ export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, Get
 		return false;
 	}
 
-	toString() {
-		return 'select ... from users where email = ?';
-	}
-
-	async run(params: GetLoginDetailsParams, connection?: PoolConnection) : Promise<GetLoginDetailsRecord[]> {
+	async run(params: GetLoginDetailsParams, connection?: PoolConnection) : Promise<GetLoginDetailsRecord> {
 		const result = connection
 			? await db.runQuery(connection, this, params) as SelectQueryResult<GetLoginDetailsRecord>
 			: await db.query(this, params) as SelectQueryResult<GetLoginDetailsRecord>;
 
-		return result.results;
+		return result.results[0];
 	}
 }

@@ -1,6 +1,6 @@
 
-import { logger } from './logger';
-import { config } from './config';
+import { logger } from '../logger';
+import { config } from '../config';
 import { hash as argonHash, verify as argonVerify } from 'argon2';
 
 Object.freeze(config.hasher);

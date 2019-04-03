@@ -1,7 +1,8 @@
 
 const endpointFiles: string[] = [
 	'healthcheck',
-	'register'
+	'register',
+	'session'
 ];
 
 export const loadEndpoints = () => {

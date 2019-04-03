@@ -15,6 +15,8 @@ export interface CreateCredentialsParams {
 export class CreateCredentialsQuery extends WriteQuery<CreateCredentialsParams> {
 	protected readonly prepared: string;
 
+	public readonly template = `insert into ${credentialsTable.name} (...) values (...)`;
+
 	constructor() {
 		super();
 
@@ -40,10 +42,6 @@ export class CreateCredentialsQuery extends WriteQuery<CreateCredentialsParams> 
 
 	isRetryable(error: MysqlError) : boolean {
 		return false;
-	}
-
-	toString() {
-		return 'insert into credentials (...) values (...)';
 	}
 
 	async run(params: CreateCredentialsParams, connection?: PoolConnection) : Promise<WriteQueryResult> {

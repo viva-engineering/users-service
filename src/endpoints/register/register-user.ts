@@ -3,12 +3,16 @@ import { logger } from '../../logger';
 import { hash } from '../../utils/hasher';
 import { db, TransactionType } from '../../database';
 import { HttpError } from '@celeri/http-error';
-import { RegistrationRequest } from './request-payload';
+import { RegistrationRequest } from './request-payload/post';
 import { LookupUserIdByEmailQuery, CreateUserQuery, CreateCredentialsQuery } from '../../database/queries';
 
 const lookupUserByEmail = new LookupUserIdByEmailQuery();
 const createUser = new CreateUserQuery();
 const createCredentials = new CreateCredentialsQuery();
+
+const enum ErrorCode {
+	EmailAlreadyInUse = 'EMAIL_ALREADY_IN_USE'
+}
 
 /**
  * Attempts to register a new user with the given info
@@ -22,8 +26,10 @@ export const registerUser = async (body: RegistrationRequest) : Promise<void> =>
 		const existingUser = await lookupUserByEmail.run({ email: body.email }, connection);
 
 		// If a user with that email address already exists, stop here
-		if (existingUser.length) {
-			throw new HttpError(409, 'Email address already in use');
+		if (existingUser) {
+			throw new HttpError(409, 'Email address already in use', {
+				code: ErrorCode.EmailAlreadyInUse
+			});
 		}
 
 		// Hash the password for storage

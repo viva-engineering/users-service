@@ -4,6 +4,8 @@ import { userTable } from '../tables';
 import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
+const user = userTable.columns;
+
 export interface LookupUserIdByEmailRecord {
 	id: number;
 	email: string;
@@ -19,13 +21,15 @@ export interface LookUserIdByEmailParams {
 export class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParams, LookupUserIdByEmailRecord> {
 	protected readonly prepared: string;
 
+	public readonly template = `select ${user.id}, ${user.email} from ${userTable.name} where ${user.email} = ?`;
+
 	constructor() {
 		super();
 
 		this.prepared = `
 			select
-				${userTable.columns.id},
-				${userTable.columns.email}
+				${user.id},
+				${user.email}
 			from ${userTable.name}
 			where email = ?
 		`;
@@ -39,15 +43,11 @@ export class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParam
 		return false;
 	}
 
-	toString() {
-		return 'select id, email from users where email = ?';
-	}
-
-	async run(params: LookUserIdByEmailParams, connection?: PoolConnection) : Promise<LookupUserIdByEmailRecord[]> {
+	async run(params: LookUserIdByEmailParams, connection?: PoolConnection) : Promise<LookupUserIdByEmailRecord> {
 		const result = connection
 			? await db.runQuery(connection, this, params) as SelectQueryResult<LookupUserIdByEmailRecord>
 			: await db.query(this, params) as SelectQueryResult<LookupUserIdByEmailRecord>;
 
-		return result.results;
+		return result.results[0];
 	}
 }

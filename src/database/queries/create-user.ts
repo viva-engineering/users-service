@@ -14,6 +14,8 @@ export interface CreateUserParams {
 export class CreateUserQuery extends WriteQuery<CreateUserParams> {
 	protected readonly prepared: string;
 
+	public readonly template = `insert into ${userTable.name} (${userTable.columns.email}) values (...)`;
+
 	constructor() {
 		super();
 
@@ -31,10 +33,6 @@ export class CreateUserQuery extends WriteQuery<CreateUserParams> {
 
 	isRetryable(error: MysqlError) : boolean {
 		return false;
-	}
-
-	toString() {
-		return 'insert into users (email) values (...)';
 	}
 
 	async run(params: CreateUserParams, connection?: PoolConnection) : Promise<WriteQueryResult> {

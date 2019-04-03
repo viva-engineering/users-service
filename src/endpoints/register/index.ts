@@ -2,7 +2,7 @@
 import { server } from '../../server';
 import { db } from '../../database';
 import { bodyParser } from '@celeri/body-parser';
-import { validatePostPayload, RegistrationRequest } from './request-payload';
+import { validatePostPayload, RegistrationRequest } from './request-payload/post';
 import { registerUser } from './register-user';
 
 server

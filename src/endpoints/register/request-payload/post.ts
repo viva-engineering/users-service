@@ -13,6 +13,8 @@ const schema = {
 	password: new StringField({ required: true, minLength: 8, maxLength: 160 })
 };
 
+const schemaKeys = Object.keys(schema);
+
 export interface ValidationErrors {
 	email?: string[],
 	password?: string[]
@@ -36,7 +38,7 @@ export const validatePostPayload = ({ req, res }: MiddlewareInput) => {
 	let hasErrors = false;
 	const errors: ValidationErrors = { };
 
-	Object.keys(schema).forEach((field) => {
+	schemaKeys.forEach((field) => {
 		const value = body[field];
 		const validator = schema[field];
 		const fieldErrors: string[] = validator.validate(value);

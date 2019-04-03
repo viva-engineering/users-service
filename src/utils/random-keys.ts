@@ -1,23 +1,37 @@
 
 import { randomBytes } from 'crypto';
 
-export const generateSessionKey = () => {
-	return randomString(128, charsets.alphaLower + charsets.alphaUpper + charsets.numeric);
-};
-
 const charsets = {
 	alphaLower: 'abcdefghijklmnopqrstuvwxyz',
 	alphaUpper: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-	numeric: '1234567890'
+	numeric: '1234567890',
+	symbol: '!@#$%^&*()/?;:|[]-=_+`~{}.,><'
 };
 
-const randomString = (length: number, charset: string) : string => {
-	const chars: string[] = new Array(length);
-	const bytes: Buffer = randomBytes(length);
+const sessionKeyCharset = charsets.alphaLower + charsets.alphaUpper + charsets.numeric + charsets.symbol;
 
-	for (let i = 0; i < length; i++) {
-		chars[i] = charset[bytes[i] % charset.length];
-	}
+/**
+ * Generates a cryptographically strong random session token from a pool of ~5.7e250 possible
+ * token values.
+ */
+export const generateSessionKey = () : Promise<string> => {
+	return randomString(128, sessionKeyCharset);
+};
 
-	return chars.join('');
+const randomString = (length: number, charset: string) : Promise<string> => {
+	return new Promise((resolve, reject) => {
+		const chars: string[] = new Array(length);
+
+		randomBytes(length, (error, bytes) => {
+			if (error) {
+				return reject(error);
+			}
+
+			for (let i = 0; i < length; i++) {
+				chars[i] = charset[bytes[i] % charset.length];
+			}
+
+			resolve(chars.join(''));
+		});
+	});
 };

@@ -1,10 +1,10 @@
 
-import { db } from '../index';
-import { userTable, credentialsTable } from '../tables';
+import { db } from '../db';
+import { usersTable, credentialsTable } from '../tables';
 import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
-const user = userTable.columns;
+const user = usersTable.columns;
 const creds = credentialsTable.columns;
 
 export interface GetLoginDetailsRecord {
@@ -30,7 +30,7 @@ export interface GetLoginDetailsParams {
 export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
 	protected readonly prepared: string;
 	
-	public readonly template = `select ... from ${userTable.name} left outer join ${credentialsTable.name} where ${user.email} = ?`;
+	public readonly template = `select ... from ${usersTable.name} left outer join ${credentialsTable.name} where ${user.email} = ?`;
 
 	constructor() {
 		super();
@@ -47,7 +47,7 @@ export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, Get
 				creds.${creds.requireSecurityQuestion} as require_security_question,
 				creds.${creds.requireMultiFactor} as require_multi_factor,
 				creds.${creds.passwordExpiration} < now() as password_expired
-			from ${userTable.name} user
+			from ${usersTable.name} user
 			left outer join ${credentialsTable.name} creds
 				on user.${user.id} = creds.${creds.userId}
 			where user.email = ?

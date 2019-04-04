@@ -5,13 +5,13 @@ const charsets = {
 	alphaLower: 'abcdefghijklmnopqrstuvwxyz',
 	alphaUpper: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 	numeric: '1234567890',
-	symbol: '!@#$%^&*()/?;:|[]-=_+`~{}.,><'
+	symbol: '!@#$%^&*()/?;:|[]-=_+`~.,><'
 };
 
 const sessionKeyCharset = charsets.alphaLower + charsets.alphaUpper + charsets.numeric + charsets.symbol;
 
 /**
- * Generates a cryptographically strong random session token from a pool of ~5.7e250 possible
+ * Generates a cryptographically strong random session token from a pool of ~3.3e249 possible
  * token values.
  */
 export const generateSessionKey = () : Promise<string> => {

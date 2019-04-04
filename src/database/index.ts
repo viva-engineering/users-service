@@ -1,22 +1,30 @@
 
-import { logger } from '../logger';
-import { config } from '../config';
-import { DatabasePool } from '@viva-eng/database';
-import { addOnShutdown } from '@viva-eng/cluster';
-import { PoolConnection } from 'mysql';
+import { usersTable, credentialsTable, sessionsTable } from './tables';
+import {
+	CreateUserQuery,
+	CreateCredentialsQuery,
+	LookupUserIdByEmailQuery,
+	GetLoginDetailsQuery,
+	CreateSessionQuery,
+	GetSessionQuery,
+	DeleteSessionQuery
+} from './queries';
 
+export { db } from './db';
 export { TransactionType } from '@viva-eng/database';
 
-export const db = new DatabasePool({
-	master: config.mysql.master,
-	replica: config.mysql.replica,
-	logger
-});
+export const tables = {
+	users: usersTable,
+	credentials: credentialsTable,
+	sessions: sessionsTable
+};
 
-addOnShutdown(async () => {
-	logger.verbose('Closing database pool');
-
-	await db.destroy();
-	
-	logger.verbose('Database pool closed');
-});
+export const queries = {
+	createUser: new CreateUserQuery(),
+	createCredentials: new CreateCredentialsQuery(),
+	lookupUserIdByEmail: new LookupUserIdByEmailQuery(),
+	getLoginDetails: new GetLoginDetailsQuery(),
+	createSession: new CreateSessionQuery(),
+	getSession: new GetSessionQuery(),
+	deleteSession: new DeleteSessionQuery()
+};

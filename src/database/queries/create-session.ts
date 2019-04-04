@@ -1,5 +1,5 @@
 
-import { db } from '../index';
+import { db } from '../db';
 import { sessionsTable } from '../tables';
 import { WriteQuery, WriteQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';

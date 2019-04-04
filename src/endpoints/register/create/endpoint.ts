@@ -1,9 +1,9 @@
 
-import { server } from '../../server';
-import { db } from '../../database';
+import { server } from '../../../server';
+import { db } from '../../../database';
 import { bodyParser } from '@celeri/body-parser';
-import { validatePostPayload, RegistrationRequest } from './request-payload/post';
-import { registerUser } from './register-user';
+import { validatePostPayload, RegistrationRequest } from './validate';
+import { registerUser } from './service';
 
 server
 	.post('/registration')

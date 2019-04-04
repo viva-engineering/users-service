@@ -1,10 +1,10 @@
 
-import { db } from '../index';
-import { userTable } from '../tables';
+import { db } from '../db';
+import { usersTable } from '../tables';
 import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
-const user = userTable.columns;
+const user = usersTable.columns;
 
 export interface LookupUserIdByEmailRecord {
 	id: number;
@@ -21,7 +21,7 @@ export interface LookUserIdByEmailParams {
 export class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParams, LookupUserIdByEmailRecord> {
 	protected readonly prepared: string;
 
-	public readonly template = `select ${user.id}, ${user.email} from ${userTable.name} where ${user.email} = ?`;
+	public readonly template = `select ${user.id}, ${user.email} from ${usersTable.name} where ${user.email} = ?`;
 
 	constructor() {
 		super();
@@ -30,7 +30,7 @@ export class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParam
 			select
 				${user.id},
 				${user.email}
-			from ${userTable.name}
+			from ${usersTable.name}
 			where email = ?
 		`;
 	}

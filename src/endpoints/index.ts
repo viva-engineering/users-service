@@ -1,10 +1,13 @@
 
-const endpointFiles: string[] = [
-	'healthcheck',
-	'register',
-	'session'
+const endpoints: string[] = [
+	'./healthcheck',
+	'./register/create/endpoint',
+	'./session/create/endpoint',
+	'./session/destroy/endpoint',
+	'./session/read/endpoint',
+	'./session/renew/endpoint'
 ];
 
 export const loadEndpoints = () => {
-	endpointFiles.forEach((file) => require(`./${file}`));
+	endpoints.forEach((file) => require(file));
 };

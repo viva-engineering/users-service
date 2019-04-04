@@ -1,6 +1,6 @@
 
-import { db } from '../index';
-import { userTable } from '../tables';
+import { db } from '../db';
+import { usersTable } from '../tables';
 import { WriteQuery, WriteQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
@@ -14,14 +14,14 @@ export interface CreateUserParams {
 export class CreateUserQuery extends WriteQuery<CreateUserParams> {
 	protected readonly prepared: string;
 
-	public readonly template = `insert into ${userTable.name} (${userTable.columns.email}) values (...)`;
+	public readonly template = `insert into ${usersTable.name} (${usersTable.columns.email}) values (...)`;
 
 	constructor() {
 		super();
 
 		this.prepared = `
-			insert into ${userTable.name}
-			(${userTable.columns.email})
+			insert into ${usersTable.name}
+			(${usersTable.columns.email})
 			values
 			(?)
 		`;

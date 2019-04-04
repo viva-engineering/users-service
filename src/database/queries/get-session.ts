@@ -1,10 +1,10 @@
 
-import { db } from '../index';
-import { userTable, sessionsTable, credentialsTable } from '../tables';
+import { db } from '../db';
+import { usersTable, sessionsTable, credentialsTable } from '../tables';
 import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, raw, format, PoolConnection } from 'mysql';
 
-const user = userTable.columns;
+const user = usersTable.columns;
 const sess = sessionsTable.columns;
 const creds = credentialsTable.columns;
 
@@ -28,7 +28,7 @@ export interface GetSessionParams {
 export class GetSessionQuery extends SelectQuery<GetSessionParams, GetSessionRecord> {
 	protected readonly prepared: string;
 
-	public readonly template = `select ... from ${sessionsTable.name} left outer join ${userTable.name} where ${user.email} = ?`;
+	public readonly template = `select ... from ${sessionsTable.name} left outer join ${usersTable.name} where ${user.email} = ?`;
 
 	constructor() {
 		super();
@@ -43,7 +43,7 @@ export class GetSessionQuery extends SelectQuery<GetSessionParams, GetSessionRec
 				creds.${creds.passwordExpiration} < now() as password_expired,
 				sess.${sess.expiration} < now() as session_expired
 			from ${sessionsTable.name} sess
-			left outer join ${userTable.name} user
+			left outer join ${usersTable.name} user
 				on user.${user.id} = sess.${sess.userId}
 			left outer join ${credentialsTable.name} creds
 				on creds.${creds.userId} = user.${user.id}

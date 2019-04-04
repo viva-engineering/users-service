@@ -1,5 +1,5 @@
 
-export const userTable = Object.freeze({
+export const usersTable = Object.freeze({
 	name: 'users',
 	columns: {
 		id: 'id',

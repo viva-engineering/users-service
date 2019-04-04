@@ -1,14 +1,10 @@
 
-import { logger } from '../../logger';
-import { verify } from '../../utils/hasher';
-import { generateSessionKey } from '../../utils/random-keys';
-import { db, TransactionType } from '../../database';
+import { logger } from '../../../logger';
+import { verify } from '../../../utils/hasher';
+import { generateSessionKey } from '../../../utils/random-keys';
+import { db, queries, TransactionType } from '../../../database';
 import { HttpError } from '@celeri/http-error';
-import { LoginRequest } from './request-payload/post';
-import { GetLoginDetailsQuery, CreateSessionQuery } from '../../database/queries';
-
-const getLoginDetails = new GetLoginDetailsQuery();
-const createSession = new CreateSessionQuery();
+import { LoginRequest } from './validate';
 
 const enum ErrorCode {
 	InvalidCredentials = 'INVALID_CREDENTIALS',
@@ -23,7 +19,7 @@ export interface LoginResult {
 }
 
 /**
- * Attempts to register a new user with the given info
+ * Attempts to login a user with their credentials, and create a new session
  *
  * @param body The request payload from the `POST /session` request
  */
@@ -31,7 +27,7 @@ export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
 	const connection = await db.startTransaction(TransactionType.ReadWrite);
 
 	try {
-		const loginDetails = await getLoginDetails.run({ email: body.email }, connection);
+		const loginDetails = await queries.getLoginDetails.run({ email: body.email }, connection);
 
 		if (! loginDetails) {
 			throw new HttpError(401, 'Invalid credentials', {
@@ -59,7 +55,7 @@ export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
 			token
 		};
 
-		createSession.run(session, connection);
+		queries.createSession.run(session, connection);
 
 		await db.commitTransaction(connection);
 

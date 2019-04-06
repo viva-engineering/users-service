@@ -2,9 +2,11 @@
 import { logger } from '../../../logger';
 import { verify } from '../../../utils/hasher';
 import { generateSessionKey } from '../../../utils/random-keys';
-import { db, queries, TransactionType } from '../../../database';
 import { HttpError } from '@celeri/http-error';
 import { LoginRequest } from './validate';
+import { db } from '@viva-eng/viva-database';
+import { TransactionType } from '@viva-eng/database';
+import { getLoginDetails, createSession } from '../../../queries';
 
 const enum ErrorCode {
 	InvalidCredentials = 'INVALID_CREDENTIALS',
@@ -27,7 +29,7 @@ export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
 	const connection = await db.startTransaction(TransactionType.ReadWrite);
 
 	try {
-		const loginDetails = await queries.getLoginDetails.run({ email: body.email }, connection);
+		const loginDetails = (await getLoginDetails.run({ email: body.email }, connection))[0];
 
 		if (! loginDetails) {
 			throw new HttpError(401, 'Invalid credentials', {
@@ -55,7 +57,7 @@ export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
 			token
 		};
 
-		queries.createSession.run(session, connection);
+		createSession.run(session, connection);
 
 		await db.commitTransaction(connection);
 

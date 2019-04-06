@@ -1,6 +1,5 @@
 
 import { server } from '../../../server';
-import { db } from '../../../database';
 import { HttpError } from '@celeri/http-error';
 import { bodyParser } from '@celeri/body-parser';
 import { readTokens } from '../../../middlewares/tokens';

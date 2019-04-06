@@ -1,6 +1,5 @@
 
 import { server } from '../../../server';
-import { db } from '../../../database';
 import { bodyParser } from '@celeri/body-parser';
 import { validatePostPayload, RegistrationRequest } from './validate';
 import { registerUser } from './service';

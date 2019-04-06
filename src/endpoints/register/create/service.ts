@@ -1,9 +1,12 @@
 
 import { logger } from '../../../logger';
 import { hash } from '../../../utils/hasher';
-import { db, queries, TransactionType } from '../../../database';
+import { generateFriendCode } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
 import { RegistrationRequest } from './validate';
+import { db } from '@viva-eng/viva-database';
+import { TransactionType } from '@viva-eng/database';
+import { lookupUserIdByEmail, createCredentials, createUser } from '../../../queries';
 
 const enum ErrorCode {
 	EmailAlreadyInUse = 'EMAIL_ALREADY_IN_USE'
@@ -18,7 +21,7 @@ export const registerUser = async (body: RegistrationRequest) : Promise<void> =>
 	const connection = await db.startTransaction(TransactionType.ReadWrite);
 
 	try {
-		const existingUser = await queries.lookupUserIdByEmail.run({ email: body.email }, connection);
+		const existingUser = (await lookupUserIdByEmail.run({ email: body.email }, connection))[0];
 
 		// If a user with that email address already exists, stop here
 		if (existingUser) {
@@ -30,8 +33,13 @@ export const registerUser = async (body: RegistrationRequest) : Promise<void> =>
 		// Hash the password for storage
 		const passwordDigest = await hashNewPassword(body.password);
 
+		const newUser = {
+			email: body.email,
+			friendCode: await generateFriendCode()
+		};
+
 		// Create the new user record
-		const createUserResult = await queries.createUser.run({ email: body.email }, connection);
+		const createUserResult = await createUser.run(newUser, connection);
 
 		const credentialsRecord = {
 			userId: createUserResult.insertId as number,
@@ -39,7 +47,7 @@ export const registerUser = async (body: RegistrationRequest) : Promise<void> =>
 		}
 
 		// Create the new credentials record
-		await queries.createCredentials.run(credentialsRecord, connection);
+		await createCredentials.run(credentialsRecord, connection);
 
 		await db.commitTransaction(connection);
 

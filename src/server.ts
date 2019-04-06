@@ -1,4 +1,6 @@
 
+import './database';
+
 import { requestLogger } from '@celeri/request-logger';
 import { config } from './config';
 import { logger } from './logger';

@@ -1,8 +1,10 @@
 
 import { logger } from '../../../logger';
 import { generateSessionKey } from '../../../utils/random-keys';
-import { db, queries, TransactionType } from '../../../database';
 import { HttpError } from '@celeri/http-error';
+import { db } from '@viva-eng/viva-database';
+import { TransactionType } from '@viva-eng/database';
+import { getSession, deleteSession, createSession } from '../../../queries';
 
 const enum ErrorCode {
 	InvalidSessionId = 'INVALID_SESSION_ID',
@@ -27,7 +29,7 @@ export const renewSession = async (sessionId: string) : Promise<RenewSessionResu
 	let transactionOpen = true;
 
 	try {
-		const session = await queries.getSession.run({ token: sessionId }, connection);
+		const session = (await getSession.run({ token: sessionId }, connection))[0];
 
 		if (! session) {
 			throw new HttpError(401, 'Invalid session token provided', {
@@ -38,7 +40,7 @@ export const renewSession = async (sessionId: string) : Promise<RenewSessionResu
 		// If the account has become disabled since the session was started, do not
 		// allow them to keep taking action
 		if (! session.user_active) {
-			await queries.deleteSession.run({ token: sessionId }, connection);
+			await deleteSession.run({ token: sessionId }, connection);
 			await db.commitTransaction(connection);
 
 			transactionOpen = false;
@@ -51,7 +53,7 @@ export const renewSession = async (sessionId: string) : Promise<RenewSessionResu
 		// If the session is expired, we can delete the session record now to help keep
 		// the table clean
 		if (session.session_expired) {
-			await queries.deleteSession.run({ token: sessionId }, connection);
+			await deleteSession.run({ token: sessionId }, connection);
 			await db.commitTransaction(connection);
 
 			transactionOpen = false;
@@ -67,7 +69,7 @@ export const renewSession = async (sessionId: string) : Promise<RenewSessionResu
 			token
 		};
 
-		queries.createSession.run(newSession, connection);
+		createSession.run(newSession, connection);
 
 		await db.commitTransaction(connection);
 

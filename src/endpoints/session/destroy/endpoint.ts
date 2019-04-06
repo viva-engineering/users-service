@@ -1,6 +1,5 @@
 
 import { server } from '../../../server';
-import { db } from '../../../database';
 import { HttpError } from '@celeri/http-error';
 import { readTokens } from '../../../middlewares/tokens';
 import { destroySession } from './service';

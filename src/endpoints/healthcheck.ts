@@ -1,7 +1,7 @@
 
 import { hostname } from 'os';
 import { server } from '../server';
-import { db } from '../database';
+import { db } from '@viva-eng/viva-database';
 
 interface Healthcheck {
 	status: 'available' | 'dependency failure',

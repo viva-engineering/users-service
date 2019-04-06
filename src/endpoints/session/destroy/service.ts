@@ -1,11 +1,10 @@
 
 import { logger } from '../../../logger';
 import { generateSessionKey } from '../../../utils/random-keys';
-import { db, TransactionType } from '../../../database';
 import { HttpError } from '@celeri/http-error';
-import { DeleteSessionQuery } from '../../../database/queries';
-
-const deleteSession = new DeleteSessionQuery();
+import { db } from '@viva-eng/viva-database';
+import { TransactionType } from '@viva-eng/database';
+import { deleteSession } from '../../../queries';
 
 /**
  * Deletes the given session, rendering the token invalid

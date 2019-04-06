@@ -1,11 +1,10 @@
 
-import { db } from '../db';
-import { usersTable, credentialsTable } from '../tables';
-import { SelectQuery, SelectQueryResult } from '@viva-eng/database';
-import { MysqlError, raw, format, PoolConnection } from 'mysql';
+import { SelectQueryResult } from '@viva-eng/database';
+import { SelectQuery, tables } from '@viva-eng/viva-database';
+import { MysqlError, format } from 'mysql';
 
-const user = usersTable.columns;
-const creds = credentialsTable.columns;
+const user = tables.users.columns;
+const creds = tables.credentials.columns;
 
 export interface GetLoginDetailsRecord {
 	user_id: number;
@@ -27,10 +26,9 @@ export interface GetLoginDetailsParams {
 /**
  * Query that fetches all the needed details about a user to perform a login
  */
-export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
-	protected readonly prepared: string;
-	
-	public readonly template = `select ... from ${usersTable.name} left outer join ${credentialsTable.name} where ${user.email} = ?`;
+export const getLoginDetails = new class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
+	public readonly prepared: string;
+	public readonly template = `select ... from ${tables.users.name} left outer join ${tables.credentials.name} where ${user.email} = ?`;
 
 	constructor() {
 		super();
@@ -47,8 +45,8 @@ export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, Get
 				creds.${creds.requireSecurityQuestion} as require_security_question,
 				creds.${creds.requireMultiFactor} as require_multi_factor,
 				creds.${creds.passwordExpiration} < now() as password_expired
-			from ${usersTable.name} user
-			left outer join ${credentialsTable.name} creds
+			from ${tables.users.name} user
+			left outer join ${tables.credentials.name} creds
 				on user.${user.id} = creds.${creds.userId}
 			where user.email = ?
 		`;
@@ -60,13 +58,5 @@ export class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, Get
 
 	isRetryable(error: MysqlError) : boolean {
 		return false;
-	}
-
-	async run(params: GetLoginDetailsParams, connection?: PoolConnection) : Promise<GetLoginDetailsRecord> {
-		const result = connection
-			? await db.runQuery(connection, this, params) as SelectQueryResult<GetLoginDetailsRecord>
-			: await db.query(this, params) as SelectQueryResult<GetLoginDetailsRecord>;
-
-		return result.results[0];
 	}
 }

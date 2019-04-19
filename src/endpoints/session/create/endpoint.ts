@@ -2,7 +2,7 @@
 import { server } from '../../../server';
 import { HttpError } from '@celeri/http-error';
 import { bodyParser } from '@celeri/body-parser';
-import { validatePostPayload, LoginRequest } from './validate';
+import { validatePostPayload, LoginRequest } from './middlewares';
 import { loginUser } from './service';
 
 // Create session endpoint, takes a user's credentials (email / password) and starts
@@ -16,6 +16,6 @@ server
 		const result = await loginUser(req.body);
 		const payload = JSON.stringify(result);
 
-		res.writeHead(200, { 'content-type': 'application/json' });
+		res.writeHead(201, { 'content-type': 'application/json' });
 		res.end(payload);
 	});

@@ -1,0 +1,2410 @@
+{
+  "program": {
+    "fileInfos": {
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es5.d.ts": {
+        "version": "ee177c59feef115e3cdd0ea56c9956a96405f4a2f6e93cc9c10a277ed83ac3a4",
+        "signature": "ee177c59feef115e3cdd0ea56c9956a96405f4a2f6e93cc9c10a277ed83ac3a4"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.d.ts": {
+        "version": "44b592f91ebaf4ea12b19daa9daf51a54601c03cd3acd5dd301592d01a8aa88d",
+        "signature": "44b592f91ebaf4ea12b19daa9daf51a54601c03cd3acd5dd301592d01a8aa88d"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.d.ts": {
+        "version": "a076876bf7bacf01d3eff29b20d56c616e61e49c92b4379e0867d64d4050ecff",
+        "signature": "a076876bf7bacf01d3eff29b20d56c616e61e49c92b4379e0867d64d4050ecff"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.d.ts": {
+        "version": "a6b9bcaef1d7f6444af29f96244cf46e08749e51d2970de547ce97191605f355",
+        "signature": "a6b9bcaef1d7f6444af29f96244cf46e08749e51d2970de547ce97191605f355"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.d.ts": {
+        "version": "39b42a8f89e38635f2ff7ee10c22c45f1d65e5394f41a86addebd7abf1527ca2",
+        "signature": "39b42a8f89e38635f2ff7ee10c22c45f1d65e5394f41a86addebd7abf1527ca2"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.core.d.ts": {
+        "version": "963bec3915c5bde519afd3c1f408fe088fccc87919e4a30ac5490116aa7c3e6e",
+        "signature": "963bec3915c5bde519afd3c1f408fe088fccc87919e4a30ac5490116aa7c3e6e"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.collection.d.ts": {
+        "version": "83e2b4555ee5fbfd0225491a074810e9318581264209b11e4060967f737faa34",
+        "signature": "83e2b4555ee5fbfd0225491a074810e9318581264209b11e4060967f737faa34"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.generator.d.ts": {
+        "version": "9e989c5c607bdcf189b278573c720c1316b270977b1ff7b9aa4432d18b8ec7d4",
+        "signature": "9e989c5c607bdcf189b278573c720c1316b270977b1ff7b9aa4432d18b8ec7d4"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.iterable.d.ts": {
+        "version": "9be707db597ecc85a5e4c555446488f6bcff8f239aca52ebed5061897e19ed69",
+        "signature": "9be707db597ecc85a5e4c555446488f6bcff8f239aca52ebed5061897e19ed69"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.promise.d.ts": {
+        "version": "7a269c45554238d1971a2d35c76274e4ea4b2c701c949cc9b860194c6bafa358",
+        "signature": "7a269c45554238d1971a2d35c76274e4ea4b2c701c949cc9b860194c6bafa358"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.proxy.d.ts": {
+        "version": "0ca606647cf7aa4e365d69763d097e725d958480079014f7cb30a9d5244e283a",
+        "signature": "0ca606647cf7aa4e365d69763d097e725d958480079014f7cb30a9d5244e283a"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.reflect.d.ts": {
+        "version": "b4a3b009b8256079fcc352de3ddfb5ed770b6046938d111cc2842d729777ecbb",
+        "signature": "b4a3b009b8256079fcc352de3ddfb5ed770b6046938d111cc2842d729777ecbb"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.d.ts": {
+        "version": "e55cd239bc1dc69de5791ae2c45ea0d70a57a361017a4c6e342ba42bdd0ef4bd",
+        "signature": "e55cd239bc1dc69de5791ae2c45ea0d70a57a361017a4c6e342ba42bdd0ef4bd"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "81e24ff087a1aa21fc93d465b746fe9c58185a67537502fd90bf388dc85a3a6c",
+        "signature": "81e24ff087a1aa21fc93d465b746fe9c58185a67537502fd90bf388dc85a3a6c"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.array.include.d.ts": {
+        "version": "bb64bbc331b368e6d6a6ccb3bf8b031add880795d09aac8513b6baf6c559bc5a",
+        "signature": "bb64bbc331b368e6d6a6ccb3bf8b031add880795d09aac8513b6baf6c559bc5a"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.object.d.ts": {
+        "version": "212c321f839a92a0d1001aa8018b3b293af75cd0cd563808bd217fbe1aca5788",
+        "signature": "212c321f839a92a0d1001aa8018b3b293af75cd0cd563808bd217fbe1aca5788"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.sharedmemory.d.ts": {
+        "version": "da4ee0d8dc5df05bfb708ad5f809b1445408be8b7ba6dae36a902ec094f4c4f0",
+        "signature": "da4ee0d8dc5df05bfb708ad5f809b1445408be8b7ba6dae36a902ec094f4c4f0"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.string.d.ts": {
+        "version": "3d96641f2745a941f6134e2513c193bbbe5ebf71f8c29e45f73da87d159be05b",
+        "signature": "3d96641f2745a941f6134e2513c193bbbe5ebf71f8c29e45f73da87d159be05b"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.intl.d.ts": {
+        "version": "661c0d67111048d038099f7be0b13b5b22f9d1f59ca7e73c7c3c5ab20ed1c228",
+        "signature": "661c0d67111048d038099f7be0b13b5b22f9d1f59ca7e73c7c3c5ab20ed1c228"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.typedarrays.d.ts": {
+        "version": "17caa3775b6d5d83dc008cf2141a9a3186ac53a01b9db02556ab62571d6a7aad",
+        "signature": "17caa3775b6d5d83dc008cf2141a9a3186ac53a01b9db02556ab62571d6a7aad"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.asynciterable.d.ts": {
+        "version": "0665464cd0ee2059e4d709b72d0a9dd2bfe95f73eececd96486a81e549c63673",
+        "signature": "0665464cd0ee2059e4d709b72d0a9dd2bfe95f73eececd96486a81e549c63673"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.intl.d.ts": {
+        "version": "0675d4bd7eddf28793dcf99ef926075293ab6d7100c94b9473f996eaf12153e6",
+        "signature": "0675d4bd7eddf28793dcf99ef926075293ab6d7100c94b9473f996eaf12153e6"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.promise.d.ts": {
+        "version": "2296a1434a53d18ff834c2f9c608b6231a65b5cd4ecdc8a9a6288f95a91e591a",
+        "signature": "2296a1434a53d18ff834c2f9c608b6231a65b5cd4ecdc8a9a6288f95a91e591a"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.regexp.d.ts": {
+        "version": "243dfca4cd5f984918b72ac286044eff866128a7d992d8021c9368c2e2b50601",
+        "signature": "243dfca4cd5f984918b72ac286044eff866128a7d992d8021c9368c2e2b50601"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.intl.d.ts": {
+        "version": "22a536b582103f1d340c42ceac1b82ceed79d9756e03d3755ff92927432419d2",
+        "signature": "22a536b582103f1d340c42ceac1b82ceed79d9756e03d3755ff92927432419d2"
+      },
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.bigint.d.ts": {
+        "version": "4c5068322e711afa19332828a02130e8e4079ad31f5b9c1d668e9d21a76e5754",
+        "signature": "4c5068322e711afa19332828a02130e8e4079ad31f5b9c1d668e9d21a76e5754"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts": {
+        "version": "bb1712d53ccdcdb6e98e5099ff6a978bc66f41e4234f6727dba5bfdbe9201d4e",
+        "signature": "bb1712d53ccdcdb6e98e5099ff6a978bc66f41e4234f6727dba5bfdbe9201d4e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a",
+        "signature": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts": {
+        "version": "7c423c885c9f352a92cb955b411d51677fa1837201d487b8cc8d9fc2c78b2669",
+        "signature": "7c423c885c9f352a92cb955b411d51677fa1837201d487b8cc8d9fc2c78b2669"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts": {
+        "version": "872ff1e7d7dfff615254f283650846520436b1afc4486cec569c8f6d5ed784b0",
+        "signature": "872ff1e7d7dfff615254f283650846520436b1afc4486cec569c8f6d5ed784b0"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts": {
+        "version": "beedf72ae8a4176d262e464b70544021a8cd765e21f58325eae5d132a3eb359d",
+        "signature": "beedf72ae8a4176d262e464b70544021a8cd765e21f58325eae5d132a3eb359d"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts": {
+        "version": "92bd533d635f967b198fde9bc789996370f0db3322306646d961f64e67ed5b7a",
+        "signature": "92bd533d635f967b198fde9bc789996370f0db3322306646d961f64e67ed5b7a"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts": {
+        "version": "4a419878f025046ff6748d073123b0451849f83b7dbca907037a53e3eaa9bbbb",
+        "signature": "4a419878f025046ff6748d073123b0451849f83b7dbca907037a53e3eaa9bbbb"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts": {
+        "version": "dbe39c84ad40acd4b4259bc035aa5870ab08bcab899d2f7089c7922a434cf02d",
+        "signature": "dbe39c84ad40acd4b4259bc035aa5870ab08bcab899d2f7089c7922a434cf02d"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts": {
+        "version": "61af0c7f7be9887d42de91222b0d758fa9912027c2dbda957b749bcd43427b54",
+        "signature": "61af0c7f7be9887d42de91222b0d758fa9912027c2dbda957b749bcd43427b54"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts": {
+        "version": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "signature": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts": {
+        "version": "152af7c23ec219f632afa2d861abc65993f56cd39a4f3a4018515dbc05950a74",
+        "signature": "152af7c23ec219f632afa2d861abc65993f56cd39a4f3a4018515dbc05950a74"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts": {
+        "version": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e",
+        "signature": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts": {
+        "version": "80c4d0b88eb9712f6cd30a672a8288f978afc8df652b4fdb434236b7836766ff",
+        "signature": "80c4d0b88eb9712f6cd30a672a8288f978afc8df652b4fdb434236b7836766ff"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts": {
+        "version": "8eb33193516c1805512396183374f3cfe7e0b1b87ec31f210259ea8d9cc13d44",
+        "signature": "8eb33193516c1805512396183374f3cfe7e0b1b87ec31f210259ea8d9cc13d44"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts": {
+        "version": "c61e008d7f29f532b933b25e57620e3b11f9cf76d88e35f2d3a4e0aaac1d5d9e",
+        "signature": "c61e008d7f29f532b933b25e57620e3b11f9cf76d88e35f2d3a4e0aaac1d5d9e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts": {
+        "version": "b8553c42868db5dd58a51b0a7f02afb4c99e3b0bd98ea4d2da8140cf978dc46c",
+        "signature": "b8553c42868db5dd58a51b0a7f02afb4c99e3b0bd98ea4d2da8140cf978dc46c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts": {
+        "version": "431151f55411c3f27cf539b987a7d1de453188ed58e54bc946183d280d3444a2",
+        "signature": "431151f55411c3f27cf539b987a7d1de453188ed58e54bc946183d280d3444a2"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts": {
+        "version": "45dd52f3123d2189b981f92410c9d5d0ba1b4c257f2f98fdf983c48ec3132ab8",
+        "signature": "45dd52f3123d2189b981f92410c9d5d0ba1b4c257f2f98fdf983c48ec3132ab8"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts": {
+        "version": "e880a08fbb0d9ee2f733f9183f4d1bdb75bc9e0e64060a8a1fc30540791fcded",
+        "signature": "e880a08fbb0d9ee2f733f9183f4d1bdb75bc9e0e64060a8a1fc30540791fcded"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "0a7a6d65b520ba55bfe2db2b1a81cf53d4f937d314f107e1be543458273d5afd",
+        "signature": "0a7a6d65b520ba55bfe2db2b1a81cf53d4f937d314f107e1be543458273d5afd"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45",
+        "signature": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts": {
+        "version": "5e90465e080e1b8b61285e84b403c619b1d4c241a3573305f2887eec187eaa92",
+        "signature": "5e90465e080e1b8b61285e84b403c619b1d4c241a3573305f2887eec187eaa92"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts": {
+        "version": "a2fdc6d46cad59808b8156c78dfec93deb126067e05d2520a322931ee09b0af8",
+        "signature": "a2fdc6d46cad59808b8156c78dfec93deb126067e05d2520a322931ee09b0af8"
+      },
+      "d:/james/projects/viva/auth-service/src/config.ts": {
+        "version": "4be2c873808556351dc084e9ff17e197741e0335a32a579e7cb5b39dee15db3e",
+        "signature": "bb0a2ff34295dd068c9e1e4aa4596b365bea27e4ad9bf6842cfb6b6afa05b161"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts": {
+        "version": "a17e831d16c27cbe4d6f0bb238c1ded0d4a26c282009e431c68733be0b792f4f",
+        "signature": "a17e831d16c27cbe4d6f0bb238c1ded0d4a26c282009e431c68733be0b792f4f"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts": {
+        "version": "b9c0518333eb3e28591632250815872c5d34b26379606fb65ef8ea0f9c3da06e",
+        "signature": "b9c0518333eb3e28591632250815872c5d34b26379606fb65ef8ea0f9c3da06e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts": {
+        "version": "ebdbad5a93fdb008da5e392e6830a468bd1dd3bb31a76ac255da60af4fbb585c",
+        "signature": "ebdbad5a93fdb008da5e392e6830a468bd1dd3bb31a76ac255da60af4fbb585c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts": {
+        "version": "d12c423edbeefa3f27aa7ea6e920048a24afcada090b2c0a9e453bed17a5d1b1",
+        "signature": "d12c423edbeefa3f27aa7ea6e920048a24afcada090b2c0a9e453bed17a5d1b1"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts": {
+        "version": "afe6d85887902691e97dcfa1f18b72e01a629b71ea133776adaeab70aa3fd71a",
+        "signature": "afe6d85887902691e97dcfa1f18b72e01a629b71ea133776adaeab70aa3fd71a"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts": {
+        "version": "710a962019ce0cf4b1073be43c3b5f14f0e65463045b4eb2806e32f9e553b44a",
+        "signature": "710a962019ce0cf4b1073be43c3b5f14f0e65463045b4eb2806e32f9e553b44a"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts": {
+        "version": "0f5b3998c719a62082e2070d166f7578b4f628469f2ede426f7a934b0c0d281b",
+        "signature": "0f5b3998c719a62082e2070d166f7578b4f628469f2ede426f7a934b0c0d281b"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts": {
+        "version": "b3a3d05185ea7b2f52851845f9679203862d3ab918717886b536700152c3ac3c",
+        "signature": "b3a3d05185ea7b2f52851845f9679203862d3ab918717886b536700152c3ac3c"
+      },
+      "d:/james/projects/viva/auth-service/src/logger/pretty.ts": {
+        "version": "ae33393e56af49f47b0eab313512da589d5c28fad1d7bcf10c9772c173d97680",
+        "signature": "64fdd1c87d43465261abb6f81238844e1d0fcaf54fac44f153bcbeafe0089d85"
+      },
+      "d:/james/projects/viva/auth-service/src/logger/index.ts": {
+        "version": "1fe5fb49b73c99bc95566158f2bd052897b601306f3f96c2579114943246fc3a",
+        "signature": "09fb37039535f9d553734e8e31349d3e0a1eba0fd3c500eb5011b6a00a9e8053"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts": {
+        "version": "c26c5156333764c9e7aa37f8609711a54c72bc2aae7fd85090ba13008cf091d7",
+        "signature": "c26c5156333764c9e7aa37f8609711a54c72bc2aae7fd85090ba13008cf091d7"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts": {
+        "version": "0d90410d0581dceec0419389f17bfc6ae061f3177857276f34d4124dbb45331e",
+        "signature": "0d90410d0581dceec0419389f17bfc6ae061f3177857276f34d4124dbb45331e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts": {
+        "version": "ae2cb8015c8a91b98ea6f9bf394866524166055bf929f44d9b47e75cd9b7e415",
+        "signature": "ae2cb8015c8a91b98ea6f9bf394866524166055bf929f44d9b47e75cd9b7e415"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts": {
+        "version": "73573b99db33a66b2a0bdce6514909f0d668eaad68bee55ebe9ff9036448aeed",
+        "signature": "73573b99db33a66b2a0bdce6514909f0d668eaad68bee55ebe9ff9036448aeed"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts": {
+        "version": "30781e5378fc56d3c994bc32168da96eda486da14af72d9e4b69ffe9d4b975b2",
+        "signature": "30781e5378fc56d3c994bc32168da96eda486da14af72d9e4b69ffe9d4b975b2"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts": {
+        "version": "02ad52f6f82d4c80ac03b1317e8e03908a26ff6be5085f7252c59064edadc7b3",
+        "signature": "02ad52f6f82d4c80ac03b1317e8e03908a26ff6be5085f7252c59064edadc7b3"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts": {
+        "version": "8f0ccc0411252a15047f9b1bb0b3e9114db0f24a779c6fb49f3489141033d7e2",
+        "signature": "8f0ccc0411252a15047f9b1bb0b3e9114db0f24a779c6fb49f3489141033d7e2"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts": {
+        "version": "372140cd7ba58e8b1f3767de637344a33fafde63ad28fc4b537549225f7d8b70",
+        "signature": "372140cd7ba58e8b1f3767de637344a33fafde63ad28fc4b537549225f7d8b70"
+      },
+      "d:/james/projects/viva/auth-service/src/database.ts": {
+        "version": "f4d5a231685d9499f6c67d0f9c1da9cdead405343dc8ccb22bb27ae4247cd262",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts": {
+        "version": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95",
+        "signature": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts": {
+        "version": "0a0719de0dba10fe88ebc388a29c24576fc4c3eea73463c44ccb65344c4edaa2",
+        "signature": "0a0719de0dba10fe88ebc388a29c24576fc4c3eea73463c44ccb65344c4edaa2"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts": {
+        "version": "12e8e62adcb76ff307be69f5d64c3677e2bbb857370c7beba2de620862d1ac40",
+        "signature": "12e8e62adcb76ff307be69f5d64c3677e2bbb857370c7beba2de620862d1ac40"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts": {
+        "version": "3dda782c01c89d8ead60ceef9effdcfd8d031bda44b3138a0e90c5d3578c8ab7",
+        "signature": "3dda782c01c89d8ead60ceef9effdcfd8d031bda44b3138a0e90c5d3578c8ab7"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts": {
+        "version": "d94613be73d8cf5ef452b47058ebc670999c3879af3901e194bbf5bc2aa035e6",
+        "signature": "d94613be73d8cf5ef452b47058ebc670999c3879af3901e194bbf5bc2aa035e6"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": {
+        "version": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95",
+        "signature": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts": {
+        "version": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9",
+        "signature": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts": {
+        "version": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4",
+        "signature": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts": {
+        "version": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20",
+        "signature": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/request-logger/build/index.d.ts": {
+        "version": "240ae8010df71454923170884ce99939bb35f86175d6b48557608cf7bbbb3489",
+        "signature": "240ae8010df71454923170884ce99939bb35f86175d6b48557608cf7bbbb3489"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/index.ts": {
+        "version": "e47da7eafda9c9f75651600ff79307b1a25d8c5533e1a7d84860f74dbd44f1a4",
+        "signature": "4e599069e86fb7c83632198a4e569869a149520c7f406adaf28c79b00a85b032"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": {
+        "version": "6c05e718764a99a3b4020b0726264cfc8577b57d2144a121a2236c55215c2ddb",
+        "signature": "6c05e718764a99a3b4020b0726264cfc8577b57d2144a121a2236c55215c2ddb"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts": {
+        "version": "f351f48dab4023827197d78647d1158b05abe49e8274ab3ea2ec264734e4db8f",
+        "signature": "f351f48dab4023827197d78647d1158b05abe49e8274ab3ea2ec264734e4db8f"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts": {
+        "version": "ae75a1271ad26ac3b14a287c03a1af5f63ff4e361e9b8e366fe2eb292c547f12",
+        "signature": "ae75a1271ad26ac3b14a287c03a1af5f63ff4e361e9b8e366fe2eb292c547f12"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts": {
+        "version": "ce406713503fc72395a52f37842af5397c56cb7c95ca6627505cec0828683880",
+        "signature": "ce406713503fc72395a52f37842af5397c56cb7c95ca6627505cec0828683880"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts": {
+        "version": "45b5b6809254bbc4afa3a3ecbfa05db0fced7758bd42f5c24f586654a9dcdf56",
+        "signature": "45b5b6809254bbc4afa3a3ecbfa05db0fced7758bd42f5c24f586654a9dcdf56"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts": {
+        "version": "7059b01bdb44264e60b5c76da446ed4a277ea99283d333667f67b0b6933228e4",
+        "signature": "7059b01bdb44264e60b5c76da446ed4a277ea99283d333667f67b0b6933228e4"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts": {
+        "version": "654a4a5d1e469d9d432380aad742d85ce742abe6bca25d36f7fef3d8f62d7ee3",
+        "signature": "654a4a5d1e469d9d432380aad742d85ce742abe6bca25d36f7fef3d8f62d7ee3"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts": {
+        "version": "2bbf1823770d3ab725444ca520869a7cb59c815495a17d7453a60a7efa8a0480",
+        "signature": "2bbf1823770d3ab725444ca520869a7cb59c815495a17d7453a60a7efa8a0480"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts": {
+        "version": "406b0e96f5810795505644db1547ad099e0bc242fe0c00b071364e808d91e42b",
+        "signature": "406b0e96f5810795505644db1547ad099e0bc242fe0c00b071364e808d91e42b"
+      },
+      "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts": {
+        "version": "c588f5941550e0cfac2f4a44497f13df66170c50e2e621ad98f0eeb6afba5377",
+        "signature": "a034291207c1d5fb7a52cd80c68df9eb685c9bd989468a67be3d8c9dabebee73"
+      },
+      "d:/james/projects/viva/auth-service/src/server.ts": {
+        "version": "c9dc7e5145222db8e96c7670cf6ae902ff4c0aec4e9a38b456cdcde292177741",
+        "signature": "65ffbf284538018af382868a9eb72ef06a3897d1ac62ee399fa8a370b4f28599"
+      },
+      "d:/james/projects/viva/auth-service/src/start.ts": {
+        "version": "f2e61be2ab358a38c416def6f83be62df5df2b468ef56b7f5ba6cbd18f9166ac",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/healthcheck.ts": {
+        "version": "7f27cc34bf03b75f220515814ff205ba2486c10bbc5be85b7375f381a6642ef1",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": {
+        "version": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8",
+        "signature": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": {
+        "version": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e",
+        "signature": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": {
+        "version": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c",
+        "signature": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": {
+        "version": "0e3c42dfee71757e209bffe4146337d49876c63080b2779c1f23175ea5d76922",
+        "signature": "0e3c42dfee71757e209bffe4146337d49876c63080b2779c1f23175ea5d76922"
+      },
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": {
+        "version": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c",
+        "signature": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/middlewares.ts": {
+        "version": "efe52cbc46f4fb65cb61ad96d9dcc58503deef518eac826919e70c7a296caae2",
+        "signature": "474dff84e896f249b6dd3dad5fa701742dfc5e3a30740b3934b11be64542441f"
+      },
+      "d:/james/projects/viva/auth-service/src/utils/hasher.ts": {
+        "version": "e465f337b1c4e8a6922fb50a45faa2f96c41df9c2b5995b2e87b3588cda6d100",
+        "signature": "9ff9274f8891cc18de2a4731261630465464edc8f3e0c4a4b8d90f6ae15edba0"
+      },
+      "d:/james/projects/viva/auth-service/src/utils/random-keys.ts": {
+        "version": "04f5c771a9fd72787b3e43e7b2c57a8b6b5dc6c123525bd5e2ad6be435402de4",
+        "signature": "2d00964b523e2eb2a6829712339dca7d1b6725f7f2726abcca4539fa616c668b"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/create-user.ts": {
+        "version": "9b90f4e5a0b27c20fd65c72d1ec7724c914aa9316f378834fd8fbf27be560213",
+        "signature": "13006da0ea0a7cfd707688aa10cedbc41d5d134f3d86d8f482acdc59198f8c69"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts": {
+        "version": "44dcb49ec1a2c82fe24f90a60a6de62e90ea5d3e8f414b1f2bdcc05fc332fb74",
+        "signature": "a79a798d614dbede6eda5166776a6578103afc0085bbc49f499bf53335e6b8d7"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts": {
+        "version": "c91e6f7775d7dd47492927934e41219ca621d0d4ff5ceab95f1ca6a90d52f2ec",
+        "signature": "e99a5fcba15bb1c2ac2fbca492b078dbea4fa1dd38071bb1d252b2b78abc588b"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts": {
+        "version": "4e181d1d27c14edd8fe7e835d88748937e439c19de56ea8c8b7dc2eacc1b5410",
+        "signature": "271d5b83701985aeb4c60daa79f95bf7e1dfff3fcb08eb9540bfd713c316d7a7"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/create-session.ts": {
+        "version": "0d571cd43a8bc0ff6855e9f7adb7f32ddee6a4e3f853c7f60046992d9b6b95c3",
+        "signature": "459809138ed1921660e621abf6b951c6b75ff80c7489f791164ee817fd38d1e6"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/get-session.ts": {
+        "version": "b4f322e832334aae2a005b4e35b0d7b59b01c0358133c45fcfe18f176c5eae45",
+        "signature": "c2174139d3f709ef9c7b2ba94c712ebffec33ff95adb3ff96c605cc2ec8b3b32"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/delete-session.ts": {
+        "version": "1d6a7205bc818d0204ca550b79621d7b6bab119061da1ee41dc1e390e4a54c5d",
+        "signature": "8d80a3224bda402b123bfc7f3383eea4259074a4ce0e4a9fafa5ec6e0377af85"
+      },
+      "d:/james/projects/viva/auth-service/src/queries/index.ts": {
+        "version": "1e2dfbe9bc1097695853029f4a60ef68bc5df5df8dd62807b962d169f01adef9",
+        "signature": "9c2fda65959feb814be03685bb4cf8b43cd23589f30e72096f54ebafe4d04ffa"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/service.ts": {
+        "version": "bceb1629ad2707312d4f769e5e7f010deb796d643d2a488bc8e45ca1f9ba8672",
+        "signature": "6a4623d6a79d49682185d990faf760cdd0e3c6da051545a80f37f96d04edb4b0"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/endpoint.ts": {
+        "version": "82ab13ec5f3b13f7a05d366820f28622eb01560906eaedf434bc4413fd16d605",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/middlewares.ts": {
+        "version": "5d09fd2fdef912d6b893977348ba9a9813d547971c9a3604c206e612feabed8c",
+        "signature": "da9b36fe38508d422096064ca1fbb0069da0211b2dc2d0fcfdf07bca2af267e1"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/service.ts": {
+        "version": "acb8e1fe963f4e96146fcb3d96638543d1c80950e2c9653c307a7e564a379a93",
+        "signature": "a029a96c4ab6efedc2fd8f26a2efe5cd9d91cd6c3409feefc74c5be1e95c2180"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/endpoint.ts": {
+        "version": "57d4c4af9e109220ccd6c415771ebbdb905fac8c08b077e00b77ef8142fe0a9d",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts": {
+        "version": "e7c671575ae6f051d6e2ed98a742b8f78d10f611e1aeb7ad58f3a80d990d38de",
+        "signature": "5cba19accbbff35d1e56ffb5bca309d629d33ee491abb8344f1fa89b14078295"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/service.ts": {
+        "version": "abc11f355f8bf848d00eb598e5767c69a73069fa932c14f6645cf7177e4cf248",
+        "signature": "5bd75703d8707cfb91811ab086435c2324bae911dcbb8cbf8f9305482c62ea45"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/endpoint.ts": {
+        "version": "466e206c1786f3f81ddb8c2b40e692633cbcc9c5e2145fcef10449022419275b",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/service.ts": {
+        "version": "203956cfd5bd35da075a8d78dbec964ea0dfef8552decd77418995dc72ddeff5",
+        "signature": "c0141b20eb1570d5070202c541f81f0df93a1ff4c5377ffdff966093bd6e3a9f"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/endpoint.ts": {
+        "version": "0ce0673163ebf466f191a66a5f2f3c188c2fbb3b012d450ed5a47e2cce53d857",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/service.ts": {
+        "version": "97f6b3c92294f51d61c291bbc89a6c593438e0cfb82b5f034d57aed8903c7154",
+        "signature": "7ed4c105b8fb7fe47f319f02d7fd9db592c687c918a599ed3d4788167d40eceb"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/endpoint.ts": {
+        "version": "8bc41a155ee8d848581e033d7ba2ffedbc6d4f44abbacad683a30f3d22549e7f",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts": {
+        "version": "9fa33c7468f612150aa46a209d1eb6c980a81d86e78decbf5f3f3c341366da06",
+        "signature": "07954afb29e45793f1fbe0c159165d083999d127f8ef6417682af9c898950fc8"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/user/override/service.ts": {
+        "version": "23f218988f9c659ee7ac4e36656cd6cc58fb217a0e143aeb0c747ad89d5a3285",
+        "signature": "86ab6271937761e747ff230c9c54dd88f2d996c6098c4948d18d05c5fa226bbc"
+      },
+      "d:/james/projects/viva/auth-service/src/endpoints/user/override/endpoint.ts": {
+        "version": "febeb44df77dbcedf17b5e79d2678cc9654fabfcbcdc3f3c930a863f5c225118",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/auth-service/src/middlewares/request-timeout.ts": {
+        "version": "321df5fadf1246732ecd683e10aa94924c1f270cc86f1b864f90f3b1722450e0",
+        "signature": "f478024f67ac52cfcd635d7814f88c7448ad7ee5012d8402195dce36bff1c371"
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 2,
+      "module": 1,
+      "outDir": "D:/james/Projects/viva/auth-service/build",
+      "rootDir": "D:/james/Projects/viva/auth-service/src",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": false,
+      "lib": [
+        "lib.es2015.d.ts",
+        "lib.es2017.d.ts"
+      ],
+      "plugins": [
+        {
+          "name": "tslint-language-service"
+        }
+      ],
+      "project": "D:/james/Projects/viva/auth-service",
+      "configFilePath": "D:/james/Projects/viva/auth-service/tsconfig.json"
+    },
+    "referencedMap": {
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es5.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.core.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.collection.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.generator.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.iterable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.promise.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.proxy.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.reflect.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.wellknown.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.array.include.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.object.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.sharedmemory.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.string.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.typedarrays.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.asynciterable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.promise.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.regexp.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.bigint.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/config.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/logger/pretty.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/logger/index.ts": [
+        "d:/james/projects/viva/auth-service/src/config.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/src/logger/pretty.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/database.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/config.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/request-logger/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/index.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/server.ts": [
+        "d:/james/projects/viva/auth-service/src/database.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/request-logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/config.ts",
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/start.ts": [
+        "d:/james/projects/viva/auth-service/src/config.ts",
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/healthcheck.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts",
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/middlewares.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/utils/hasher.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/config.ts",
+        "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/utils/random-keys.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-user.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/get-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/delete-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/index.ts": [
+        "d:/james/projects/viva/auth-service/src/queries/create-user.ts",
+        "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts",
+        "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts",
+        "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts",
+        "d:/james/projects/viva/auth-service/src/queries/create-session.ts",
+        "d:/james/projects/viva/auth-service/src/queries/get-session.ts",
+        "d:/james/projects/viva/auth-service/src/queries/delete-session.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/service.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/utils/hasher.ts",
+        "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/queries/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/register/create/middlewares.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/register/create/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/middlewares.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/service.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/utils/hasher.ts",
+        "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/queries/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/create/middlewares.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/create/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/service.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/queries/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/service.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/queries/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/read/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/service.ts": [
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/queries/index.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/renew/service.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/auth-service/src/logger/index.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/session/read/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/user/override/service.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/user/override/endpoint.ts": [
+        "d:/james/projects/viva/auth-service/src/server.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/endpoints/user/override/service.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/request-timeout.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/config.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/logger/pretty.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/logger/index.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/request-logger/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/server.ts": [
+        "d:/james/projects/viva/auth-service/src/database.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-user.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/create-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/get-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/delete-session.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/queries/index.ts": [
+        "d:/james/projects/viva/auth-service/src/queries/create-user.ts",
+        "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts",
+        "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts",
+        "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts",
+        "d:/james/projects/viva/auth-service/src/queries/create-session.ts",
+        "d:/james/projects/viva/auth-service/src/queries/get-session.ts",
+        "d:/james/projects/viva/auth-service/src/queries/delete-session.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/request-timeout.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es5.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.core.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.collection.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.generator.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.iterable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.promise.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.proxy.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.reflect.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.wellknown.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.array.include.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.object.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.sharedmemory.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.string.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.typedarrays.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.asynciterable.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.promise.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.regexp.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.intl.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.bigint.d.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/middlewares.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/middlewares.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts": [
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es5.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.core.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.collection.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.generator.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.iterable.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.promise.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.proxy.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.reflect.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2015.symbol.wellknown.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2016.array.include.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.object.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.sharedmemory.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.string.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.intl.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2017.typedarrays.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.asynciterable.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.intl.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.promise.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.es2018.regexp.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.intl.d.ts",
+      "c:/users/james/appdata/roaming/sublime text 3/packages/typescript/tsserver/lib.esnext.bigint.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/globals.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/assert.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/async_hooks.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/buffer.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/child_process.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/cluster.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/console.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/constants.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/crypto.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dgram.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/dns.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/domain.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/events.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/fs.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/http2.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/https.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/inspector.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/module.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/net.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/os.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/path.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/perf_hooks.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/process.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/punycode.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/querystring.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/readline.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/repl.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/stream.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/string_decoder.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/timers.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tls.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/trace_events.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/tty.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/url.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/util.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/v8.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/vm.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/worker_threads.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/zlib.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/base.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/util.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/globals.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/node/ts3.2/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@types/mysql/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/argon2/argon2.d.ts",
+      "d:/james/projects/viva/auth-service/src/config.ts",
+      "d:/james/projects/viva/auth-service/node_modules/colors/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/logger.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/stdout.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/output/cluster.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/json.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/format/readable.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/logger/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/src/logger/pretty.ts",
+      "d:/james/projects/viva/auth-service/src/logger/index.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/query.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/database/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/queries.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/types.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/config.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/cluster/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/src/database.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/interface.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/route.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/regex-router/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/router/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/server.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/config.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-server/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/request-logger/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/index.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/error.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/body-parser/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/http-error.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/error-handler.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@celeri/http-error/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/src/middlewares/error-handler.ts",
+      "d:/james/projects/viva/auth-service/src/server.ts",
+      "d:/james/projects/viva/auth-service/src/start.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/healthcheck.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
+      "d:/james/projects/viva/auth-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/middlewares.ts",
+      "d:/james/projects/viva/auth-service/src/utils/hasher.ts",
+      "d:/james/projects/viva/auth-service/src/utils/random-keys.ts",
+      "d:/james/projects/viva/auth-service/src/queries/create-user.ts",
+      "d:/james/projects/viva/auth-service/src/queries/create-credentials.ts",
+      "d:/james/projects/viva/auth-service/src/queries/lookup-user-id.ts",
+      "d:/james/projects/viva/auth-service/src/queries/get-login-details.ts",
+      "d:/james/projects/viva/auth-service/src/queries/create-session.ts",
+      "d:/james/projects/viva/auth-service/src/queries/get-session.ts",
+      "d:/james/projects/viva/auth-service/src/queries/delete-session.ts",
+      "d:/james/projects/viva/auth-service/src/queries/index.ts",
+      [
+        "d:/james/projects/viva/auth-service/src/endpoints/register/create/service.ts",
+        [
+          {
+            "file": "d:/james/projects/viva/auth-service/src/endpoints/register/create/service.ts",
+            "start": 241,
+            "length": 12,
+            "messageText": "Cannot find module './validate'.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/register/create/endpoint.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/middlewares.ts",
+      [
+        "d:/james/projects/viva/auth-service/src/endpoints/session/create/service.ts",
+        [
+          {
+            "file": "d:/james/projects/viva/auth-service/src/endpoints/session/create/service.ts",
+            "start": 238,
+            "length": 12,
+            "messageText": "Cannot find module './validate'.",
+            "category": 1,
+            "code": 2307
+          }
+        ]
+      ],
+      "d:/james/projects/viva/auth-service/src/endpoints/session/create/endpoint.ts",
+      "d:/james/projects/viva/auth-service/src/middlewares/tokens.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/service.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/destroy/endpoint.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/service.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/read/endpoint.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/service.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/session/renew/endpoint.ts",
+      "d:/james/projects/viva/auth-service/src/middlewares/authenticate.ts",
+      "d:/james/projects/viva/auth-service/src/endpoints/user/override/service.ts",
+      [
+        "d:/james/projects/viva/auth-service/src/endpoints/user/override/endpoint.ts",
+        [
+          {
+            "file": "d:/james/projects/viva/auth-service/src/endpoints/user/override/endpoint.ts",
+            "start": 773,
+            "length": 12,
+            "messageText": "Cannot find name 'registerUser'.",
+            "category": 1,
+            "code": 2304
+          }
+        ]
+      ],
+      "d:/james/projects/viva/auth-service/src/middlewares/request-timeout.ts"
+    ]
+  },
+  "version": "3.4.1"
+}

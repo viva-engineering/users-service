@@ -1,28 +1,27 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, schemas } from '@viva-eng/viva-database';
+import { WriteQuery, tables } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
 
-export interface CreateSessionParams {
+export interface CreateUserNoteParams {
 	userId: number;
 	token: string;
 }
 
-const sessTable = schemas.users.tables.sessions.name;
-const sess = schemas.users.tables.sessions.columns;
+const sess = tables.sessions.columns;
 
 /**
  * Query that creates a new credentials record for a user
  */
-export const createSession = new class CreateSessionQuery extends WriteQuery<CreateSessionParams> {
+export const createUserNote = new class CreateUserNoteQuery extends WriteQuery<CreateUserNoteParams> {
 	public readonly prepared: string;
-	public readonly template = `insert into ${sessTable} (...) values (...)`;
+	public readonly template = `insert into ${tables.sessions.name} (...) values (...)`;
 
 	constructor() {
 		super();
 
 		this.prepared = `
-			insert into ${sessTable}
+			insert into ${tables.sessions.name}
 			(
 				${sess.id},
 				${sess.userId},
@@ -33,7 +32,7 @@ export const createSession = new class CreateSessionQuery extends WriteQuery<Cre
 		`;
 	}
 
-	compile({ userId, token }: CreateSessionParams) : string {
+	compile({ userId, token }: CreateUserNoteParams) : string {
 		return format(this.prepared, [ token, userId ]);
 	}
 

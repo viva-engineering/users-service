@@ -1,7 +1,7 @@
 
 import { server } from '../../../server';
 import { bodyParser } from '@celeri/body-parser';
-import { validatePostPayload, RegistrationRequest } from './validate';
+import { validatePostPayload, RegistrationRequest } from './middlewares';
 import { registerUser } from './service';
 
 server
@@ -13,6 +13,6 @@ server
 
 		await registerUser(req.body);
 
-		res.writeHead(200);
+		res.writeHead(201);
 		res.end();
 	});

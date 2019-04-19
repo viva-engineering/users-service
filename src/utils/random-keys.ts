@@ -8,8 +8,8 @@ const charsets = {
 	symbol: '!@#$%^&*()/?;:|[]-=_+`~.,><'
 };
 
+const userCodeCharset = charsets.alphaLower + charsets.alphaUpper + charsets.numeric;
 const sessionKeyCharset = charsets.alphaLower + charsets.alphaUpper + charsets.numeric + charsets.symbol;
-const friendCodeCharset = charsets.alphaUpper + charsets.numeric;
 
 /**
  * Generates a cryptographically strong random session token from a pool of ~3.3e249 possible
@@ -20,10 +20,10 @@ export const generateSessionKey = () : Promise<string> => {
 };
 
 /**
- * Generates a random friend code.
+ * Generates a random user code
  */
-export const generateFriendCode = () : Promise<string> => {
-	return randomString(20, friendCodeCharset);
+export const generateUserCode = () : Promise<string> => {
+	return randomString(40, userCodeCharset);
 };
 
 const randomString = (length: number, charset: string) : Promise<string> => {

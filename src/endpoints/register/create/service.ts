@@ -1,9 +1,9 @@
 
 import { logger } from '../../../logger';
 import { hash } from '../../../utils/hasher';
-import { generateFriendCode } from '../../../utils/random-keys';
+import { generateUserCode } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
-import { RegistrationRequest } from './validate';
+import { RegistrationRequest } from './middlewares';
 import { db } from '@viva-eng/viva-database';
 import { TransactionType } from '@viva-eng/database';
 import { lookupUserIdByEmail, createCredentials, createUser } from '../../../queries';
@@ -35,7 +35,7 @@ export const registerUser = async (body: RegistrationRequest) : Promise<void> =>
 
 		const newUser = {
 			email: body.email,
-			friendCode: await generateFriendCode()
+			userCode: await generateUserCode()
 		};
 
 		// Create the new user record

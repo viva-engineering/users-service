@@ -14,10 +14,13 @@ const enum ErrorCode {
 
 export interface SessionResult {
 	userId: number;
+	userCode: string;
 	email: string;
 	name: string;
 	needsEmailValidation?: true;
 	passwordExpired?: true;
+	isAdmin?: true;
+	isModerator?: true;
 }
 
 /**
@@ -71,6 +74,7 @@ export const fetchSession = async (sessionId: string) : Promise<SessionResult> =
 
 		const result: SessionResult = {
 			userId: session.user_id,
+			userCode: session.user_code,
 			email: session.email,
 			name: session.name
 		};
@@ -81,6 +85,14 @@ export const fetchSession = async (sessionId: string) : Promise<SessionResult> =
 
 		if (session.password_expired) {
 			result.passwordExpired = true;
+		}
+
+		if (session.is_admin) {
+			result.isAdmin = true;
+		}
+
+		if (session.is_moderator) {
+			result.isModerator = true;
 		}
 
 		return result;

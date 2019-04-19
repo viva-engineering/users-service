@@ -14,6 +14,6 @@ server
 		const result = await renewSession(req.tokens.session);
 		const payload = JSON.stringify(result);
 
-		res.writeHead(200, { 'content-type': 'application/json' });
+		res.writeHead(201, { 'content-type': 'application/json' });
 		res.end(payload);
 	});

@@ -17,7 +17,7 @@ export interface LookUserIdByEmailParams {
 /**
  * Query that looks up a user's user ID by their email address
  */
-export const lookupUserIdByEmail = new class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParams, LookupUserIdByEmailRecord> {
+class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParams, LookupUserIdByEmailRecord> {
 	public readonly prepared: string;
 	public readonly template = `select ${user.id}, ${user.email} from ${tables.users.name} where ${user.email} = ?`;
 
@@ -41,3 +41,5 @@ export const lookupUserIdByEmail = new class LookupUserIdByEmailQuery extends Se
 		return false;
 	}
 }
+
+export const lookupUserIdByEmail = new LookupUserIdByEmailQuery();

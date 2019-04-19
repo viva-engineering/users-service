@@ -1,6 +1,6 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, tables } from '@viva-eng/viva-database';
+import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
 
 export interface CreateCredentialsParams {
@@ -8,20 +8,21 @@ export interface CreateCredentialsParams {
 	passwordDigest: string;
 }
 
-const creds = tables.credentials.columns;
+const credsTable = schemas.users.tables.credentials.name;
+const creds = schemas.users.tables.credentials.columns;
 
 /**
  * Query that creates a new credentials record for a user
  */
 export const createCredentials = new class CreateCredentialsQuery extends WriteQuery<CreateCredentialsParams> {
 	public readonly prepared: string;
-	public readonly template = `insert into ${tables.credentials.name} (...) values (...)`;
+	public readonly template = `insert into ${credsTable} (...) values (...)`;
 
 	constructor() {
 		super();
 
 		this.prepared = `
-			insert into ${tables.credentials.name}
+			insert into ${credsTable}
 			(
 				${creds.userId},
 				${creds.passwordDigest},

@@ -3,7 +3,7 @@ import { logger } from '../../../logger';
 import { verify } from '../../../utils/hasher';
 import { generateSessionKey } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
-import { LoginRequest } from './validate';
+import { LoginRequest } from './middlewares';
 import { db } from '@viva-eng/viva-database';
 import { TransactionType } from '@viva-eng/database';
 import { getLoginDetails, createSession } from '../../../queries';

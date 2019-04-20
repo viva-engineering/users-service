@@ -1,8 +1,9 @@
 
 import { SelectQueryResult } from '@viva-eng/database';
-import { SelectQuery, tables } from '@viva-eng/viva-database';
+import { SelectQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
 
+const tables = schemas.users.tables;
 const user = tables.users.columns;
 
 export interface LookupUserIdByEmailRecord {

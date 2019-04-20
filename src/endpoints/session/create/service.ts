@@ -5,7 +5,6 @@ import { generateSessionKey } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
 import { LoginRequest } from './middlewares';
 import { db } from '@viva-eng/viva-database';
-import { TransactionType } from '@viva-eng/database';
 import { getLoginDetails, createSession } from '../../../queries';
 
 const enum ErrorCode {
@@ -26,69 +25,47 @@ export interface LoginResult {
  * @param body The request payload from the `POST /session` request
  */
 export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
-	const connection = await db.startTransaction(TransactionType.ReadWrite);
+	const loginDetails = (await getLoginDetails.run({ email: body.email }))[0];
 
-	try {
-		const loginDetails = (await getLoginDetails.run({ email: body.email }, connection))[0];
-
-		if (! loginDetails) {
-			throw new HttpError(401, 'Invalid credentials', {
-				code: ErrorCode.InvalidCredentials
-			});
-		}
-
-		await verifyPassword(loginDetails.password_digest, body.password);
-
-		if (! loginDetails.user_active) {
-			throw new HttpError(401, 'Account is disabled', {
-				code: ErrorCode.AccountDisabled
-			});
-		}
-
-		if (! loginDetails.creds_active) {
-			throw new HttpError(401, 'Account credentials are disabled', {
-				code: ErrorCode.CredentialsDisabled
-			});
-		}
-
-		const token = await generateSessionKey();
-		const session = {
-			userId: loginDetails.user_id,
-			token
-		};
-
-		createSession.run(session, connection);
-
-		await db.commitTransaction(connection);
-
-		connection.release();
-
-		const result: LoginResult = { token };
-
-		if (! loginDetails.email_validated) {
-			result.needsEmailValidation = true;
-		}
-
-		if (loginDetails.password_expired) {
-			result.passwordExpired = true;
-		}
-
-		return result;
+	if (! loginDetails) {
+		throw new HttpError(401, 'Invalid credentials', {
+			code: ErrorCode.InvalidCredentials
+		});
 	}
 
-	catch (error) {
-		await db.rollbackTransaction(connection);
+	await verifyPassword(loginDetails.password_digest, body.password);
 
-		connection.release();
-
-		if (error instanceof HttpError) {
-			throw error;
-		}
-
-		logger.warn('An unexpected error occured while trying to login', { error });
-
-		throw new HttpError(500, 'Unexpected server error');
+	if (! loginDetails.active) {
+		throw new HttpError(401, 'Account is disabled', {
+			code: ErrorCode.AccountDisabled
+		});
 	}
+
+	if (! loginDetails.creds_active) {
+		throw new HttpError(401, 'Account credentials are disabled', {
+			code: ErrorCode.CredentialsDisabled
+		});
+	}
+
+	const token = await generateSessionKey();
+	const session = {
+		userId: loginDetails.id,
+		token
+	};
+
+	createSession.run(session);
+
+	const result: LoginResult = { token };
+
+	if (! loginDetails.email_validated) {
+		result.needsEmailValidation = true;
+	}
+
+	if (loginDetails.password_expired) {
+		result.passwordExpired = true;
+	}
+
+	return result;
 };
 
 /**

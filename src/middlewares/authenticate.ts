@@ -5,6 +5,7 @@ import { HttpError } from '@celeri/http-error';
 import { errorHandler } from './error-handler';
 import { logger } from '../logger';
 import { fetchSession } from '../endpoints/session/read/service';
+import { UserRole } from '@viva-eng/viva-database';
 
 const enum AuthErrors {
 	NeedsEmailValidation = 'NEEDS_EMAIL_VALIDATION',
@@ -17,8 +18,7 @@ export interface AuthenticatedUser {
 	token: string;
 	email: string;
 	name: string;
-	isAdmin?: true;
-	isModerator?: true;
+	userRole?: UserRole;
 }
 
 interface AuthenticateParams {
@@ -50,8 +50,7 @@ export const authenticate = (params: AuthenticateParams = { }) : MiddlewareFunct
 				token: sessionToken,
 				email: session.email,
 				name: session.name,
-				isAdmin: session.isAdmin,
-				isModerator: session.isModerator
+				userRole: session.userRole
 			};
 		}
 	};

@@ -1,6 +1,6 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, tables } from '@viva-eng/viva-database';
+import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
 
 /**
@@ -10,6 +10,7 @@ import { MysqlError, format } from 'mysql';
  */
 const defaultPrivacySettings = 1;
 
+const tables = schemas.users.tables;
 const user = tables.users.columns;
 
 export interface CreateUserParams {

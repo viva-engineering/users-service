@@ -18,36 +18,32 @@ const enum ErrorCode {
  * @param body The request payload from the `POST /registration` request
  */
 export const registerUser = async (body: RegistrationRequest) : Promise<void> => {
+	const userRecords = await lookupUserIdByEmail.run({ email: body.email });
+
+	// If a user with that email address already exists, stop here
+	if (userRecords.length) {
+		throw new HttpError(409, 'Email address already in use', {
+			code: ErrorCode.EmailAlreadyInUse
+		});
+	}
+
+	// Hash the password for storage
+	const passwordDigest = await hashNewPassword(body.password);
+
+	const newUser = {
+		email: body.email,
+		userCode: await generateUserCode()
+	};
+	
 	const connection = await db.startTransaction(TransactionType.ReadWrite);
 
 	try {
-		const existingUser = (await lookupUserIdByEmail.run({ email: body.email }, connection))[0];
-
-		// If a user with that email address already exists, stop here
-		if (existingUser) {
-			throw new HttpError(409, 'Email address already in use', {
-				code: ErrorCode.EmailAlreadyInUse
-			});
-		}
-
-		// Hash the password for storage
-		const passwordDigest = await hashNewPassword(body.password);
-
-		const newUser = {
-			email: body.email,
-			userCode: await generateUserCode()
-		};
-
 		// Create the new user record
 		const createUserResult = await createUser.run(newUser, connection);
-
-		const credentialsRecord = {
-			userId: createUserResult.insertId as number,
-			passwordDigest
-		}
+		const userId = createUserResult.insertId as number;
 
 		// Create the new credentials record
-		await createCredentials.run(credentialsRecord, connection);
+		await createCredentials.run({ userId, passwordDigest }, connection);
 
 		await db.commitTransaction(connection);
 

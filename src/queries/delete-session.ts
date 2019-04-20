@@ -1,7 +1,9 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, tables } from '@viva-eng/viva-database';
+import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
+
+const tables = schemas.users.tables;
 
 export interface DeleteSessionParams {
 	token: string;

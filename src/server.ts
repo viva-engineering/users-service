@@ -49,12 +49,21 @@ server.server.listen(config.http.port, config.http.address, () => {
 
 const loggerMiddleware = requestLogger({
 	log: (message: string, req: Request, res: Response, duration: string, finished: boolean) => {
-		logger.info('Incomming request', {
+		const meta = {
 			method: req.method,
 			path: req.pathname,
 			status: res.statusCode,
-			duration
-		});
+			duration,
+			userId: null,
+			userRole: null
+		};
+
+		if (req.user) {
+			meta.userId = req.user.userId;
+			meta.userRole = req.user.userRole;
+		}
+
+		logger.info('Incomming request', meta);
 	}
 });
 

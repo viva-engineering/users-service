@@ -24,7 +24,6 @@ type UserSelectList
 
 type CredsSelectList
 	= typeof creds.passwordDigest
-	| typeof creds.isActive
 	| typeof creds.isCompromised
 	| typeof creds.requireSecurityQuestion
 	| typeof creds.requireMultiFactor
@@ -33,6 +32,7 @@ export type GetLoginDetailsRecord
 	= Record<UsersColumns, UserSelectList, { }>
 	& Record<CredentialsColumns, CredsSelectList, {
 		password_expired: boolean;
+		creds_active: CredentialsColumns[typeof creds.isActive];
 	}>;
 
 export interface GetLoginDetailsParams {
@@ -56,10 +56,10 @@ export const getLoginDetails = new class GetLoginDetailsQuery extends SelectQuer
 				user.${user.active},
 				user.${user.emailValidated},
 				creds.${creds.passwordDigest},
-				creds.${creds.isActive},
 				creds.${creds.isCompromised},
 				creds.${creds.requireSecurityQuestion},
 				creds.${creds.requireMultiFactor},
+				creds.${creds.isActive} as creds_active,
 				creds.${creds.passwordExpiration} < now() as password_expired
 			from ${tables.users.name} user
 			left outer join ${tables.credentials.name} creds

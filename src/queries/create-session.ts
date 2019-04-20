@@ -8,8 +8,9 @@ export interface CreateSessionParams {
 	token: string;
 }
 
-const sessTable = schemas.users.tables.sessions.name;
-const sess = schemas.users.tables.sessions.columns;
+const tables = schemas.users.tables;
+const sessTable = tables.sessions.name;
+const sess = tables.sessions.columns;
 
 /**
  * Query that creates a new credentials record for a user
@@ -41,3 +42,4 @@ export const createSession = new class CreateSessionQuery extends WriteQuery<Cre
 		return false;
 	}
 }
+

@@ -8,8 +8,9 @@ export interface CreateCredentialsParams {
 	passwordDigest: string;
 }
 
-const credsTable = schemas.users.tables.credentials.name;
-const creds = schemas.users.tables.credentials.columns;
+const tables = schemas.users.tables;
+const credsTable = tables.credentials.name;
+const creds = tables.credentials.columns;
 
 /**
  * Query that creates a new credentials record for a user

@@ -1,6 +1,6 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, tables } from '@viva-eng/viva-database';
+import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
 
 export interface CreateUserNoteParams {
@@ -8,6 +8,7 @@ export interface CreateUserNoteParams {
 	token: string;
 }
 
+const tables = schemas.users.tables;
 const sess = tables.sessions.columns;
 
 /**

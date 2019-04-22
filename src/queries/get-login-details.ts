@@ -26,7 +26,7 @@ type CredsSelectList
 	= typeof creds.passwordDigest
 	| typeof creds.isCompromised
 	| typeof creds.requireSecurityQuestion
-	| typeof creds.requireMultiFactor
+	| typeof creds.requireMultiFactor;
 
 export type GetLoginDetailsRecord 
 	= Record<UsersColumns, UserSelectList, { }>
@@ -36,37 +36,31 @@ export type GetLoginDetailsRecord
 	}>;
 
 export interface GetLoginDetailsParams {
-	email: string;
+	email: UsersColumns[typeof user.email];
 }
 
 /**
  * Query that fetches all the needed details about a user to perform a login
  */
-export const getLoginDetails = new class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
-	public readonly prepared: string;
-	public readonly template = `select ... from ${tables.users.name} left outer join ${tables.credentials.name} where ${user.email} = ?`;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			select
-				user.${user.id},
-				user.${user.email},
-				user.${user.active},
-				user.${user.emailValidated},
-				creds.${creds.passwordDigest},
-				creds.${creds.isCompromised},
-				creds.${creds.requireSecurityQuestion},
-				creds.${creds.requireMultiFactor},
-				creds.${creds.isActive} as creds_active,
-				creds.${creds.passwordExpiration} < now() as password_expired
-			from ${tables.users.name} user
-			left outer join ${tables.credentials.name} creds
-				on user.${user.id} = creds.${creds.userId}
-			where user.email = ?
-		`;
-	}
+class GetLoginDetailsQuery extends SelectQuery<GetLoginDetailsParams, GetLoginDetailsRecord> {
+	public readonly template = 'get login details';
+	protected readonly prepared = `
+		select
+			user.${user.id},
+			user.${user.email},
+			user.${user.active},
+			user.${user.emailValidated},
+			creds.${creds.passwordDigest},
+			creds.${creds.isCompromised},
+			creds.${creds.requireSecurityQuestion},
+			creds.${creds.requireMultiFactor},
+			creds.${creds.isActive} as creds_active,
+			creds.${creds.passwordExpiration} < now() as password_expired
+		from ${tables.users} user
+		left outer join ${tables.credentials} creds
+			on user.${user.id} = creds.${creds.userId}
+		where user.email = ?
+	`;
 
 	compile({ email }: GetLoginDetailsParams) : string {
 		return format(this.prepared, [ email ]);
@@ -76,3 +70,5 @@ export const getLoginDetails = new class GetLoginDetailsQuery extends SelectQuer
 		return false;
 	}
 }
+
+export const getLoginDetails = new GetLoginDetailsQuery();

@@ -5,7 +5,9 @@ const endpoints: string[] = [
 	'./session/create/endpoint',
 	'./session/destroy/endpoint',
 	'./session/read/endpoint',
-	'./session/renew/endpoint'
+	'./session/renew/endpoint',
+	'./user/find/endpoint',
+	'./user/get-profile/endpoint'
 ];
 
 export const loadEndpoints = () => {

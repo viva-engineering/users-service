@@ -33,40 +33,34 @@ export type GetSessionRecord = Record<UsersColumns, SelectList, {
 }>;
 
 export interface GetSessionParams {
-	token: string;
+	token: SessionsColumns[typeof sess.id];
 }
 
 /**
  * Query that fetches a users session and some basic user data
  */
-export const getSession = new class GetSessionQuery extends SelectQuery<GetSessionParams, GetSessionRecord> {
-	public readonly prepared: string;
-	public readonly template = `select ... from ${tables.sessions.name}, ${tables.users.name}, ${tables.credentials.name}, ${tables.userRoles.name} where ${user.email} = ?`;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			select
-				user.${user.id},
-				user.${user.userCode},
-				user.${user.email},
-				user.${user.name},
-				user.${user.active},
-				user.${user.emailValidated},
-				role.${role.description} as user_role,
-				creds.${creds.passwordExpiration} < now() as password_expired,
-				sess.${sess.expiration} < now() as session_expired
-			from ${tables.sessions.name} sess
-			left outer join ${tables.users.name} user
-				on user.${user.id} = sess.${sess.userId}
-			left outer join ${tables.userRoles} role
-				on role.${role.id} = user.${user.userRoleId}
-			left outer join ${tables.credentials.name} creds
-				on creds.${creds.userId} = user.${user.id}
-			where sess.${sess.id} = ?
-		`;
-	}
+class GetSessionQuery extends SelectQuery<GetSessionParams, GetSessionRecord> {
+	public readonly template = 'get session';
+	protected readonly prepared = `
+		select
+			user.${user.id},
+			user.${user.userCode},
+			user.${user.email},
+			user.${user.name},
+			user.${user.active},
+			user.${user.emailValidated},
+			role.${role.description} as user_role,
+			creds.${creds.passwordExpiration} < now() as password_expired,
+			sess.${sess.expiration} < now() as session_expired
+		from ${tables.sessions} sess
+		left outer join ${tables.users} user
+			on user.${user.id} = sess.${sess.userId}
+		left outer join ${tables.userRoles} role
+			on role.${role.id} = user.${user.userRoleId}
+		left outer join ${tables.credentials} creds
+			on creds.${creds.userId} = user.${user.id}
+		where sess.${sess.id} = ?
+	`;
 
 	compile({ token }: GetSessionParams) : string {
 		return format(this.prepared, [ token ]);
@@ -76,3 +70,5 @@ export const getSession = new class GetSessionQuery extends SelectQuery<GetSessi
 		return false;
 	}
 }
+
+export const getSession = new GetSessionQuery();

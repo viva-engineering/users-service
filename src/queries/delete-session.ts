@@ -1,30 +1,25 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
+import { WriteQuery, schemas, SessionsColumns } from '@viva-eng/viva-database';
 
 const tables = schemas.users.tables;
+const sess = tables.sessions.columns;
 
 export interface DeleteSessionParams {
-	token: string;
+	token: SessionsColumns[typeof sess.id];
 }
 
 /**
- * Query that creates a new credentials record for a user
+ * Query that deletes an existing session record
  */
-export const deleteSession = new class DeleteSessionQuery extends WriteQuery<DeleteSessionParams> {
-	public readonly prepared: string;
-	public readonly template = `delete ${tables.sessions.name} from ${tables.sessions.name} where ${tables.sessions.columns.id} = ?`;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			delete ${tables.sessions.name}
-			from ${tables.sessions.name}
-			where ${tables.sessions.columns.id} = ?
-		`;
-	}
+class DeleteSessionQuery extends WriteQuery<DeleteSessionParams> {
+	public readonly template = 'delete session';
+	protected readonly prepared = `
+		delete ${tables.sessions}
+		from ${tables.sessions}
+		where ${sess.id} = ?
+	`;
 
 	compile({ token }: DeleteSessionParams) : string {
 		return format(this.prepared, [ token ]);
@@ -34,3 +29,5 @@ export const deleteSession = new class DeleteSessionQuery extends WriteQuery<Del
 		return false;
 	}
 }
+
+export const deleteSession = new DeleteSessionQuery();

@@ -1,38 +1,31 @@
 
 import { WriteQueryResult } from '@viva-eng/database';
-import { WriteQuery, schemas } from '@viva-eng/viva-database';
 import { MysqlError, format } from 'mysql';
-
-export interface CreateSessionParams {
-	userId: number;
-	token: string;
-}
+import { WriteQuery, schemas, SessionsColumns } from '@viva-eng/viva-database';
 
 const tables = schemas.users.tables;
-const sessTable = tables.sessions.name;
 const sess = tables.sessions.columns;
 
+export interface CreateSessionParams {
+	userId: SessionsColumns[typeof sess.userId];
+	token: SessionsColumns[typeof sess.id];
+}
+
 /**
- * Query that creates a new credentials record for a user
+ * Query that creates a new active user session
  */
-export const createSession = new class CreateSessionQuery extends WriteQuery<CreateSessionParams> {
-	public readonly prepared: string;
-	public readonly template = `insert into ${sessTable} (...) values (...)`;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			insert into ${sessTable}
-			(
-				${sess.id},
-				${sess.userId},
-				${sess.expiration}
-			)
-			values
-			(?, ?, adddate(now(), interval 30 minute))
-		`;
-	}
+class CreateSessionQuery extends WriteQuery<CreateSessionParams> {
+	public readonly template = 'create session';
+	protected readonly prepared = `
+		insert into ${tables.sessions}
+		(
+			${sess.id},
+			${sess.userId},
+			${sess.expiration}
+		)
+		values
+		(?, ?, adddate(now(), interval 30 minute))
+	`;
 
 	compile({ userId, token }: CreateSessionParams) : string {
 		return format(this.prepared, [ token, userId ]);
@@ -43,3 +36,4 @@ export const createSession = new class CreateSessionQuery extends WriteQuery<Cre
 	}
 }
 
+export const createSession = new CreateSessionQuery();

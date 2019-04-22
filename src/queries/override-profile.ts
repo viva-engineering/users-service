@@ -20,7 +20,7 @@
 //  * Query that overrides attributes on a profile with admin permissions
 //  */
 // class OverrideProfileQuery extends WriteQuery<OverrideProfileParams> {
-// 	public readonly template = `update ${tables.users.name} set ... where ${user.userCode} = ?`;
+// 	public readonly template = `update ${tables.users} set ... where ${user.userCode} = ?`;
 
 // 	constructor() {
 // 		super();
@@ -30,7 +30,7 @@
 // 		const fields = [ ];
 
 // 		if (params.name) {
-// 			fields.push(format(`${user.name} = ?`, [ params.name ]));
+// 			fields.push(format(`${user} = ?`, [ params.name ]));
 // 		}
 
 // 		if (params.active) {
@@ -50,7 +50,7 @@
 // 		}
 
 // 		if (params.name) {
-// 			fields.push(format(`${user.name} = ?`, [ params.name ]));
+// 			fields.push(format(`${user} = ?`, [ params.name ]));
 // 		}
 
 // 		if (params.lockExplicitContentVisible) {
@@ -61,7 +61,7 @@
 // 			throw new Error('Expected at least one field to be set');
 // 		}
 
-// 		return format(`update ${tables.users.name} set ${fields.join(', ')} where ${user.userCode} = ?`, [ params.userCode ]);
+// 		return format(`update ${tables.users} set ${fields.join(', ')} where ${user.userCode} = ?`, [ params.userCode ]);
 // 	}
 
 // 	isRetryable(error: MysqlError) : boolean {

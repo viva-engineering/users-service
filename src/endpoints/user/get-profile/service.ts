@@ -9,6 +9,7 @@ import { getUserProfile } from '../../../queries';
 const magicUserCodeSelf = 'self';
 
 const privilegedRoles = new Set([
+	UserRole.System,
 	UserRole.Admin,
 	UserRole.SuperModerator,
 	UserRole.Moderator
@@ -51,7 +52,10 @@ export const getUser = async (userCode: string, searchAs: AuthenticatedUser) : P
 			userCode = searchAs.userCode;
 		}
 
-		const userRecords = await getUserProfile.run({ userCode, searchAs });
+		const userRecords = await getUserProfile.run({
+			userCode,
+			searchAsUserId: searchAs.userId
+		});
 
 		if (! userRecords.length) {
 			throw new HttpError(404, 'User code does not exist');

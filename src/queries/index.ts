@@ -1,12 +1,30 @@
 
-export { createCredentials } from './create-credentials';
-export { createSession } from './create-session';
-// export { createUserNote } from './create-user-note';
-export { createUser } from './create-user';
-export { deleteSession } from './delete-session';
-export { getLoginDetails } from './get-login-details';
-export { getSession } from './get-session';
-export { getUserProfile } from './get-user-profile';
-export { lookupUserIdByEmail } from './lookup-user-id';
-// export { overrideProfile } from './override-profile';
-export { searchUser } from './search-user';
+export { createCredentials, CreateCredentialsParams } from './auth/create-credentials';
+export { createSession, CreateSessionParams } from './auth/create-session';
+export { deleteSession, DeleteSessionParams } from './auth/delete-session';
+export { getLoginDetails, GetLoginDetailsParams, GetLoginDetailsRecord } from './auth/get-login-details';
+export { getSession, GetSessionParams, GetSessionRecord } from './auth/get-session';
+// export { updatePassword } from './auth/update-password';
+// export { updateMultiFactor } from './auth/update-multi-factor';
+
+export { createUser, CreateUserParams } from './users/create-user';
+export { getUserProfile, GetUserProfileParams, GetUserProfileRecord } from './users/get-user-profile';
+export { lookupUserIdByEmail, LookUserIdByEmailParams, LookupUserIdByEmailRecord } from './users/lookup-user-id';
+export { searchUser, SearchUserParams, SearchUserRecord } from './users/search-user';
+
+export { addFriend, AddFriendParams } from './friends/add-friend';
+// export { confirmFriend } from './friends/confirm-friend';
+export { countFriends, CountFriendsParams, CountFriendsRecord } from './friends/count-friends';
+// export { declineFriend } from './friends/decline-friend';
+export { listFriends, ListFriendsParams, ListFriendsRecord } from './friends/list-friends';
+// export { listFriendRequests } from './friends/list-friend-requests';
+// export { removeFriend } from './friends/remove-friend';
+
+// export { createUserNote } from './moderation/create-user-note';
+// export { overrideProfile } from './moderation/override-profile';
+
+// export { createUserGroup } from './user-groups/create-user-group';
+// export { listUserGroups } from './user-groups/list-user-groups';
+// export { addUserToUserGroup } from './user-groups/add-user-to-user-group';
+// export { removeUserFromUserGroup } from './user-groups/remove-user-from-user-group';
+// export { deleteUserGroup } from './user-groups/delete-user-group';

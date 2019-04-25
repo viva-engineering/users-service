@@ -1,7 +1,7 @@
 
 import { SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, format } from 'mysql';
-import { AuthenticatedUser } from '../middlewares/authenticate';
+import { AuthenticatedUser } from '../../middlewares/authenticate';
 import {
 	SelectQuery,
 	schemas,
@@ -19,12 +19,6 @@ const user = tables.users.columns;
 const friend = tables.friends.columns;
 const priv = tables.userPrivacySettings.columns;
 const role = tables.userRoles.columns;
-
-const privilegedRoles = new Set([
-	UserRole.Admin,
-	UserRole.SuperModerator,
-	UserRole.Moderator
-]);
 
 type UserSelectList
 	= typeof user.userCode
@@ -57,7 +51,7 @@ export type GetUserProfileRecord
 
 export interface GetUserProfileParams {
 	userCode: string;
-	searchAs: AuthenticatedUser;
+	searchAsUserId: number;
 }
 
 /**
@@ -80,7 +74,7 @@ class GetUserProfileQuery extends SelectQuery<GetUserProfileParams, GetUserProfi
 			priv.${priv.birthdayPrivacy} as birthday_privacy,
 			role.${role.description} as user_role,
 			(user.${user.id} = ?) as is_self,
-			(friend.${friend.userA} is not null and friend.${friend.userB} is not null) as is_friend,
+			(friend.${friend.requestingUserId} is not null and friend.${friend.requestedUserId} is not null) as is_friend,
 			priv.${priv.defaultPostPrivacy} as default_post_privacy,
 			priv.${priv.defaultImagePrivacy} as default_image_privacy,
 			priv.${priv.discoverableByEmail} as discoverable_by_email,
@@ -90,20 +84,20 @@ class GetUserProfileQuery extends SelectQuery<GetUserProfileParams, GetUserProfi
 		left outer join ${tables.userPrivacySettings} priv
 			on priv.${priv.id} = user.${user.privacySettingsId}
 		left outer join ${tables.friends} friend
-			on (friend.${friend.userA} = user.${user.id} and friend.${friend.userB} = ?)
-			or (friend.${friend.userB} = user.${user.id} and friend.${friend.userA} = ?)
+			on (friend.${friend.requestingUserId} = user.${user.id} and friend.${friend.requestedUserId} = ?)
+			or (friend.${friend.requestedUserId} = user.${user.id} and friend.${friend.requestingUserId} = ?)
 		left outer join ${tables.userRoles} role
 			on role.${role.id} = user.${user.userRoleId}
 		where user.${user.userCode} = ?
 	`;
 
-	compile({ userCode, searchAs }: GetUserProfileParams) : string {
+	compile({ userCode, searchAsUserId }: GetUserProfileParams) : string {
 		return format(this.prepared, [
 			// Check for self
-			searchAs.userId,
+			searchAsUserId,
 			// Join on friends table to check if friends
-			searchAs.userId,
-			searchAs.userId,
+			searchAsUserId,
+			searchAsUserId,
 			// The user being searched for
 			userCode
 		]);

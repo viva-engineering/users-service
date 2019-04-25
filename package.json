@@ -1,5 +1,5 @@
 {
-  "name": "@viva-eng/auth-service",
+  "name": "@viva-eng/users-service",
   "version": "",
   "description": "",
   "main": "build/index.js",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/viva-eng/auth-service.git"
+    "url": "git+https://github.com/viva-eng/users-service.git"
   },
   "keywords": [],
   "author": "James Brumond <james@jbrumond.me> (http://www.jbrumond.me)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/viva/auth-service/issues"
+    "url": "https://github.com/viva/users-service/issues"
   },
   "dependencies": {
     "@celeri/body-parser": "^2.0.2",
@@ -26,10 +26,10 @@
     "@celeri/query-parser": "^2.0.0",
     "@celeri/request-logger": "^2.0.4",
     "@viva-eng/cluster": "^1.0.5",
-    "@viva-eng/database": "^1.0.14",
+    "@viva-eng/database": "^1.0.19",
     "@viva-eng/logger": "^1.0.11",
-    "@viva-eng/payload-validator": "^1.0.3",
-    "@viva-eng/viva-database": "^1.0.13",
+    "@viva-eng/payload-validator": "^1.0.4",
+    "@viva-eng/viva-database": "^1.0.14",
     "argon2": "^0.21.0",
     "mysql": "^2.16.0"
   },

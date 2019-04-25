@@ -1,7 +1,8 @@
 
 import { SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, format } from 'mysql';
-import { AuthenticatedUser } from '../middlewares/authenticate';
+import { AuthenticatedUser } from '../../middlewares/authenticate';
+import { HttpError } from '@celeri/http-error';
 import {
 	SelectQuery,
 	schemas,
@@ -19,6 +20,7 @@ const priv = tables.userPrivacySettings.columns;
 const role = tables.userRoles.columns;
 
 const privilegedRoles = new Set([
+	UserRole.System,
 	UserRole.Admin,
 	UserRole.SuperModerator,
 	UserRole.Moderator
@@ -49,10 +51,12 @@ export type SearchUserRecord
 	& Record<UserPrivacySettingsColumns, PrivSelectList, { }>;
 
 export interface SearchUserParams {
-	searchAs: AuthenticatedUser;
+	searchAsUserId: number;
+	isPrivileged: boolean;
 	name?: string;
 	email?: string;
 	phone?: string;
+	userId?: number;
 	userCode?: string;
 };
 
@@ -60,6 +64,7 @@ interface QueryFragments {
 	findByName: string;
 	findByEmail: string;
 	findByPhone: string;
+	findByUserId?: string;
 	findByUserCode: string;
 }
 
@@ -97,13 +102,13 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 				priv.${priv.birthdayPrivacy},
 				role.${role.description} as user_role,
 				(user.${user.id} = ?) as is_self,
-				(friend.${friend.userA} is not null and friend.${friend.userB} is not null) as is_friend
+				(friend.${friend.requestingUserId} is not null and friend.${friend.requestedUserId} is not null) as is_friend
 			from ${tables.users} user
 			left outer join ${tables.userPrivacySettings} priv
 				on priv.${priv.id} = user.${user.privacySettingsId}
 			left outer join ${tables.friends} friend
-				on (friend.${friend.userA} = user.${user.id} and friend.${friend.userB} = ?)
-				or (friend.${friend.userB} = user.${user.id} and friend.${friend.userA} = ?)
+				on (friend.${friend.requestingUserId} = user.${user.id} and friend.${friend.requestedUserId} = ?)
+				or (friend.${friend.requestedUserId} = user.${user.id} and friend.${friend.requestingUserId} = ?)
 			left outer join ${tables.userRoles} role
 				on role.${role.id} = user.${user.userRoleId}
 		`;
@@ -119,6 +124,7 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 			findByName: `where user.${user.name} like ? limit 100`,
 			findByEmail: `where user.${user.email} = ?`,
 			findByPhone: `where user.${user.phone} = ?`,
+			findByUserId: `where user.${user.id} = ?`,
 			findByUserCode: `where user.${user.userCode} = ?`
 		};
 	}
@@ -155,14 +161,17 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 		return format(fragment, [ userCode ]);
 	}
 
-	compile({ searchAs, name, email, phone, userCode }: SearchUserParams) : string {
-		const isPrivileged = privilegedRoles.has(searchAs.userRole);
+	private compileFindByUserId(userId: number) : string {
+		return format(this.prepared.privileged.findByUserId, [ userId ]);
+	}
+
+	compile({ searchAsUserId, isPrivileged, name, email, phone, userId, userCode }: SearchUserParams) : string {
 		const template = format(this.prepared.template, [
 			// Used in the check for self
-			searchAs.userId,
+			searchAsUserId,
 			// Used in the check for friends
-			searchAs.userId,
-			searchAs.userId
+			searchAsUserId,
+			searchAsUserId
 		]);
 
 		if (name) {
@@ -177,9 +186,19 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 			return `${template} ${this.compileFindByPhone(phone, isPrivileged)}`;
 		}
 
+		if (userId) {
+			if (! isPrivileged) {
+				throw new HttpError(403, 'Not Authorized');
+			}
+
+			return `${template} ${this.compileFindByUserId(userId)}`;
+		}
+
 		if (userCode) {
 			return `${template} ${this.compileFindByUserCode(userCode, isPrivileged)}`;
 		}
+
+		throw new Error('Must provide a valid search parameter to search by');
 	}
 
 	isRetryable(error: MysqlError) : boolean {

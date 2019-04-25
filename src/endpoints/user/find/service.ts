@@ -5,9 +5,10 @@ import { TransactionType } from '@viva-eng/database';
 import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
 import { SearchUserQueryParams } from './middlewares';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
-import { searchUser, SearchUserRecord } from '../../../queries/search-user';
+import { searchUser } from '../../../queries';
 
 const privilegedRoles = new Set([
+	UserRole.System,
 	UserRole.Admin,
 	UserRole.SuperModerator,
 	UserRole.Moderator
@@ -30,13 +31,21 @@ export interface FindUserResult {
  * Performs a search for users matching the given criteria
  */
 export const findUsers = async (query: SearchUserQueryParams, searchAs: AuthenticatedUser) : Promise<FindUserResult[]> => {
+	const isPrivileged = privilegedRoles.has(searchAs.userRole);
+
+	if (query.userId && ! isPrivileged) {
+		throw new HttpError(403, 'Not Authorized');
+	}
+
 	try {
-		const records: SearchUserRecord[] = await searchUser.run({
+		const records = await searchUser.run({
 			name: query.name,
 			email: query.email,
 			phone: query.phone,
+			userId: query.userId,
 			userCode: query.userCode,
-			searchAs: searchAs
+			searchAsUserId: searchAs.userId,
+			isPrivileged
 		});
 
 		return records.map((record) => {
@@ -48,7 +57,7 @@ export const findUsers = async (query: SearchUserQueryParams, searchAs: Authenti
 			};
 
 			// Minimum needed visibility level needed to view a piece of data
-			const neededVisibility = (record.is_self || privilegedRoles.has(searchAs.userRole))
+			const neededVisibility = (record.is_self || isPrivileged)
 				? PrivacyFlag.Private
 				: record.is_friend
 					? PrivacyFlag.FriendsOnly

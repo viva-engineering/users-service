@@ -30,7 +30,8 @@ class CreateUserQuery extends WriteQuery<CreateUserParams> {
 			${user.email},
 			${user.userCode},
 			${user.privacySettingsId},
-			${user.emailValidated})
+			${user.emailValidated}
+		)
 		values
 		(?, ?, ${defaultPrivacySettings}, 1)
 	`;

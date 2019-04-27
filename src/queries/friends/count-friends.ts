@@ -28,22 +28,21 @@ export interface CountFriendsRecord {
  */
 class CountFriendsQuery extends SelectQuery<CountFriendsParams, CountFriendsRecord> {
 	public readonly template = 'count friends';
-	protected readonly prepared: string;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			select
-				count(friend.${friendIdsSubQuery.columns.userId}) as friend_count
-			from (?) friend
-			left outer join users user
-				on user.id = friend.user_id
-		`;
-	}
+	protected readonly prepared = `
+		select
+		  count(friend.${friendIdsSubQuery.columns.userId}) as friend_count
+		from (?) friend
+		left outer join users user
+		  on user.id = friend.user_id
+	`;
 
 	compile({ userId }: CountFriendsParams) : string {
-		const friendIds = friendIdsSubQuery.compile({ userId, accepted: 1 });
+		const friendIds = friendIdsSubQuery.compile({
+			userId,
+			accepted: 1,
+			toUser: true,
+			fromUser: true
+		});
 
 		return format(this.prepared, [ friendIds ]);
 	}

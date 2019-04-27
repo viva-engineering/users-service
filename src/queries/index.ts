@@ -9,16 +9,17 @@ export { getSession, GetSessionParams, GetSessionRecord } from './auth/get-sessi
 
 export { createUser, CreateUserParams } from './users/create-user';
 export { getUserProfile, GetUserProfileParams, GetUserProfileRecord } from './users/get-user-profile';
-export { lookupUserIdByEmail, LookUserIdByEmailParams, LookupUserIdByEmailRecord } from './users/lookup-user-id';
+export { lookupUserIdByEmail, LookUserIdByEmailParams, LookupUserIdByEmailRecord } from './users/lookup-user-id-by-email';
+export { lookupUserIdByUserCode, LookUserIdByUserCodeParams, LookupUserIdByUserCodeRecord } from './users/lookup-user-id-by-code';
 export { searchUser, SearchUserParams, SearchUserRecord } from './users/search-user';
 
 export { addFriend, AddFriendParams } from './friends/add-friend';
-// export { confirmFriend } from './friends/confirm-friend';
+export { confirmFriend, ConfirmFriendParams } from './friends/confirm-friend';
 export { countFriends, CountFriendsParams, CountFriendsRecord } from './friends/count-friends';
-// export { declineFriend } from './friends/decline-friend';
+export { declineFriend, DeclineFriendParams } from './friends/decline-friend';
 export { listFriends, ListFriendsParams, ListFriendsRecord } from './friends/list-friends';
-// export { listFriendRequests } from './friends/list-friend-requests';
-// export { removeFriend } from './friends/remove-friend';
+export { listFriendRequests, ListFriendRequestsParams, ListFriendRequestsRecord } from './friends/list-friend-requests';
+export { removeFriend, RemoveFriendParams } from './friends/remove-friend';
 
 // export { createUserNote } from './moderation/create-user-note';
 // export { overrideProfile } from './moderation/override-profile';

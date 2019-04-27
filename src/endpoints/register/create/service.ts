@@ -3,7 +3,7 @@ import { logger } from '../../../logger';
 import { hash } from '../../../utils/hasher';
 import { generateUserCode } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
-import { RegistrationRequest } from './middlewares';
+import { Body } from './params';
 import { db } from '@viva-eng/viva-database';
 import { TransactionType } from '@viva-eng/database';
 import { lookupUserIdByEmail, createCredentials, createUser } from '../../../queries';
@@ -17,7 +17,7 @@ const enum ErrorCode {
  *
  * @param body The request payload from the `POST /registration` request
  */
-export const registerUser = async (body: RegistrationRequest) : Promise<void> => {
+export const registerUser = async (body: Body) : Promise<void> => {
 	const userRecords = await lookupUserIdByEmail.run({ email: body.email });
 
 	// If a user with that email address already exists, stop here

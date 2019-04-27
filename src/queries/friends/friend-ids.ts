@@ -1,10 +1,12 @@
 
 import { format } from 'mysql';
-import { SelectSubQuery } from '@viva-eng/database';
+import { SelectSubQuery, RawQueryFragment } from '@viva-eng/database';
 import { schemas, Bit } from '@viva-eng/viva-database';
 
 export interface FriendIdsParams {
 	userId: number;
+	fromUser?: boolean;
+	toUser?: boolean;
 	accepted: Bit;
 }
 
@@ -15,32 +17,39 @@ const friend = friends.columns;
  * Sub-Query that results in a list of user IDs for all of a user's friends
  */
 class FriendIdsSubQuery extends SelectSubQuery<FriendIdsParams> {
-	protected readonly prepared: string;
-
 	public readonly columns = {
 		userId: 'user_id' as const
 	};
 
-	constructor() {
-		super();
-
-		this.prepared = `
+	protected readonly prepared = {
+		fromUser: `
 			select
-				${friend.requestingUserId} as user_id
-			from ${friends}
-				where ${friend.requestedUserId} = ?
-				and ${friend.accepted} = ?
-			union
-			select
-				${friend.requestedUserId} as user_id
+			  ${friend.requestedUserId} as user_id
 			from ${friends}
 			where ${friend.requestingUserId} = ?
-				and ${friend.accepted} = ?
-		`;
-	}
+			  and ${friend.accepted} = ?
+		`,
+		toUser: `
+			select
+			  ${friend.requestingUserId} as user_id
+			from ${friends}
+			where ${friend.requestedUserId} = ?
+			  and ${friend.accepted} = ?
+		`
+	};
 
-	compile({ userId, accepted }: FriendIdsParams) {
-		return this.raw(format(this.prepared, [ userId, accepted, userId, accepted ]));
+	compile({ userId, fromUser, toUser, accepted }: FriendIdsParams) : RawQueryFragment<'select user_id'> {
+		const segments = [ ];
+
+		if (fromUser) {
+			segments.push(format(this.prepared.fromUser, [ userId, accepted ]));
+		}
+
+		if (toUser) {
+			segments.push(format(this.prepared.toUser, [ userId, accepted ]));
+		}
+
+		return this.raw(segments.join(' union '));
 	}
 }
 

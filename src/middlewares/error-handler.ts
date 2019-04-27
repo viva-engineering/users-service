@@ -17,7 +17,7 @@ const formatError = (error: HttpError) : ErrorPayload => {
 	};
 };
 
-export const errorHandler: ErrorMiddlewareFunction<MiddlewareInput> = async ({ req, res, error }) => {
+export const errorHandler: ErrorMiddlewareFunction<MiddlewareInput<any, any>> = async ({ req, res, error }) => {
 	if (error instanceof HttpError) {
 		const payload = JSON.stringify(formatError(error));
 

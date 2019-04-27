@@ -2,14 +2,13 @@
 import { server } from '../../../server';
 import { HttpError } from '@celeri/http-error';
 import { bodyParser } from '@celeri/body-parser';
-import { readTokens } from '../../../middlewares/tokens';
+import { readTokens, ReqWithTokens } from '../../../middlewares/tokens';
 import { fetchSession } from './service';
-
 
 // Get session endpoint, takes an active session token and returns basic user / session
 // metadata
 server
-	.get('/session')
+	.get<void, ReqWithTokens>('/session')
 	.use(readTokens({ requireSessionToken: true }))
 	.use(async ({ req, res }) => {
 		const result = await fetchSession(req.tokens.session);

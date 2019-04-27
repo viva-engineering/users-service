@@ -3,7 +3,7 @@ import { logger } from '../../../logger';
 import { verify } from '../../../utils/hasher';
 import { generateSessionKey } from '../../../utils/random-keys';
 import { HttpError } from '@celeri/http-error';
-import { LoginRequest } from './middlewares';
+import { Body } from './params';
 import { db } from '@viva-eng/viva-database';
 import { getLoginDetails, createSession } from '../../../queries';
 
@@ -24,7 +24,7 @@ export interface LoginResult {
  *
  * @param body The request payload from the `POST /session` request
  */
-export const loginUser = async (body: LoginRequest) : Promise<LoginResult> => {
+export const loginUser = async (body: Body) : Promise<LoginResult> => {
 	const loginDetails = (await getLoginDetails.run({ email: body.email }))[0];
 
 	if (! loginDetails) {

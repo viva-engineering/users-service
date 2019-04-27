@@ -46,46 +46,44 @@ export interface ListFriendsParams {
 };
 
 /**
- * Query that searches for a user by user defined parameters. Is bound to the searching user to only
- * return results the user should be allowed to see
+ * Query that returns a list of a user's friends
  */
 class ListFriendsQuery extends SelectQuery<ListFriendsParams, ListFriendsRecord> {
 	public readonly template = 'list friends';
-	protected readonly prepared: string;
-
-	constructor() {
-		super();
-
-		this.prepared = `
-			select
-				user.${user.userCode},
-				user.${user.email},
-				user.${user.name},
-				user.${user.phone},
-				user.${user.location},
-				user.${user.birthday},
-				user.${user.active},
-				user.${user.emailValidated},
-				priv.${priv.emailPrivacy},
-				priv.${priv.phonePrivacy},
-				priv.${priv.locationPrivacy},
-				priv.${priv.birthdayPrivacy},
-				role.${role.description} as user_role
-			from (?) friend
-			left outer join users user
-				on user.id = friend.user_id
-			left outer join ${tables.userPrivacySettings} priv
-				on priv.${priv.id} = user.${user.privacySettingsId}
-			left outer join ${tables.userRoles} role
-				on role.${role.id} = user.${user.userRoleId}
-			order by friend.user_id asc
-			limit ?
-			offset ?
-		`;
-	}
+	protected readonly prepared = `
+		select
+		  user.${user.userCode},
+		  user.${user.email},
+		  user.${user.name},
+		  user.${user.phone},
+		  user.${user.location},
+		  user.${user.birthday},
+		  user.${user.active},
+		  user.${user.emailValidated},
+		  priv.${priv.emailPrivacy},
+		  priv.${priv.phonePrivacy},
+		  priv.${priv.locationPrivacy},
+		  priv.${priv.birthdayPrivacy},
+		  role.${role.description} as user_role
+		from (?) friend
+		left outer join users user
+		  on user.id = friend.user_id
+		left outer join ${tables.userPrivacySettings} priv
+		  on priv.${priv.id} = user.${user.privacySettingsId}
+		left outer join ${tables.userRoles} role
+		  on role.${role.id} = user.${user.userRoleId}
+		order by friend.user_id asc
+		limit ?
+		offset ?
+	`;
 
 	compile({ userId, page }: ListFriendsParams) : string {
-		const friendIds = friendIdsSubQuery.compile({ userId, accepted: 1 });
+		const friendIds = friendIdsSubQuery.compile({
+			userId,
+			accepted: 1,
+			toUser: true,
+			fromUser: true
+		});
 
 		return format(this.prepared, [
 			friendIds,

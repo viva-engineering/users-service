@@ -19,9 +19,9 @@ class AddFriendQuery extends WriteQuery<AddFriendParams> {
 	protected readonly prepared = `
 		insert into ${tables.friends}
 		(
-			${friends.requestingUserId},
-			${friends.requestedUserId},
-			${friends.accepted}
+		  ${friends.requestingUserId},
+		  ${friends.requestedUserId},
+		  ${friends.accepted}
 		)
 		values
 		(?, ?, 0)

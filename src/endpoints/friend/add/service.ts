@@ -3,7 +3,7 @@ import { logger } from '../../../logger';
 import { HttpError } from '@celeri/http-error';
 import { TransactionType } from '@viva-eng/database';
 import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
-import { QueryParams } from './params';
+import { SearchUserQueryParams } from './middlewares';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
 import { searchUser } from '../../../queries';
 
@@ -30,7 +30,7 @@ export interface FindUserResult {
 /**
  * Performs a search for users matching the given criteria
  */
-export const findUsers = async (query: QueryParams, searchAs: AuthenticatedUser) : Promise<FindUserResult[]> => {
+export const findUsers = async (query: SearchUserQueryParams, searchAs: AuthenticatedUser) : Promise<FindUserResult[]> => {
 	const isPrivileged = privilegedRoles.has(searchAs.userRole);
 
 	if (query.userId && ! isPrivileged) {

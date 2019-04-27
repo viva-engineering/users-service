@@ -20,13 +20,13 @@ export interface LookUserIdByEmailParams {
  * Query that looks up a user's user ID by their email address
  */
 class LookupUserIdByEmailQuery extends SelectQuery<LookUserIdByEmailParams, LookupUserIdByEmailRecord> {
-	public readonly template = 'lookup user email';
+	public readonly template = 'lookup user by email';
 	protected readonly prepared = `
 		select
 			${user.id},
 			${user.email}
 		from ${tables.users}
-		where email = ?
+		where ${user.email} = ?
 	`;
 
 	compile({ email }: LookUserIdByEmailParams) : string {

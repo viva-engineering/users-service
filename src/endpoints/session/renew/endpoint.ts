@@ -3,12 +3,12 @@ import { server } from '../../../server';
 import { HttpError } from '@celeri/http-error';
 import { bodyParser } from '@celeri/body-parser';
 import { renewSession } from './service';
-import { readTokens } from '../../../middlewares/tokens';
+import { readTokens, ReqWithTokens } from '../../../middlewares/tokens';
 
 // Update session endpoint, renews an existing session by generating a new token with a
 // fresh expiration
 server
-	.put('/session/renew')
+	.put<void, ReqWithTokens>('/session/renew')
 	.use(readTokens({ requireSessionToken: true }))
 	.use(async ({ req, res }) => {
 		const result = await renewSession(req.tokens.session);

@@ -3,7 +3,11 @@ import { HttpError } from '@celeri/http-error';
 import { MiddlewareInput } from '@celeri/http-server';
 import { StringField, NumberField, EmailField } from '@viva-eng/payload-validator';
 
-export interface SearchUserQueryParams {
+export interface Req {
+	query?: QueryParams
+}
+
+export interface QueryParams {
 	name?: string;
 	email?: string;
 	phone?: string;
@@ -17,8 +21,8 @@ const phoneField = new StringField({ regex: /^\+?[1-9]\d{1,14}$/ });
 const userIdField = new NumberField({ minValue: 1, allowString: true });
 const userCodeField = new StringField({ minLength: 40, maxLength: 40 });
 
-export const validateSearchQuery = ({ req, res }: MiddlewareInput) => {
-	const query = req.query as SearchUserQueryParams;
+export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
+	const query = req.query as QueryParams;
 
 	if (! query) {
 		throw new HttpError(400, 'Must provide a search parameter', { });
@@ -75,7 +79,7 @@ export const validateSearchQuery = ({ req, res }: MiddlewareInput) => {
 		const errors = userIdField.validate(query.userId);
 
 		if (errors.length) {
-			throw new HttpError(422, 'Invalid search parameter "userCode"', { errors });
+			throw new HttpError(422, 'Invalid search parameter "userId"', { errors });
 		}
 
 		query.userId = parseFloat(query.userId as any as string);

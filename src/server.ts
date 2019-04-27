@@ -86,7 +86,7 @@ if (config.logging.logLevel === 'silly') {
 
 // Shutdown handler
 
-const shutdownMiddleware = ({ req, res }: MiddlewareInput) => {
+const shutdownMiddleware = ({ req, res }: MiddlewareInput<void, void>) => {
 	// If we're currently shutting down, don't allow any new requests to start
 	if (isShuttingDown()) {
 		throw new HttpError(503, 'This server instance is currently shutting down. Please try the request again.');
@@ -125,7 +125,7 @@ server.catch(errorHandler);
 
 // Final request cleanup
 
-const cleanupMiddleware = ({ req, res }: MiddlewareInput) => {
+const cleanupMiddleware = ({ req, res }: MiddlewareInput<void, void>) => {
 	runningRequests.delete(req);
 };
 

@@ -1,8 +1,14 @@
 
-import { MiddlewareInput, Request } from '@celeri/http-server';
-import { MiddlewareFunction } from '@celeri/middleware-pipeline';
+import { MiddlewareInput } from '@celeri/http-server';
 import { HttpError } from '@celeri/http-error';
 import { errorHandler } from './error-handler';
+
+export interface ReqWithTokens {
+	tokens?: {
+		session?: string;
+		application?: string;
+	}
+}
 
 interface ReadTokensParams {
 	requireSessionToken?: true;
@@ -12,8 +18,8 @@ interface ReadTokensParams {
 /**
  * Reads any auth tokens in the request and stores them on the request object
  */
-export const readTokens = (params: ReadTokensParams = { }) : MiddlewareFunction<MiddlewareInput> => {
-	return ({ req, res }) => {
+export const readTokens = (params: ReadTokensParams = { }) => {
+	return ({ req, res }: MiddlewareInput<any, ReqWithTokens>) => {
 		req.tokens = {
 			session: getToken(req.headers['x-user-token'], params.requireSessionToken),
 			application: getToken(req.headers['x-application-secret'], params.requireApplicationToken)
@@ -36,13 +42,3 @@ const getToken = (token: string | string[], required: boolean) : string => {
 
 	return token;
 };
-
-
-declare module '@celeri/http-server' {
-	interface Request {
-		tokens?: {
-			session?: string;
-			application?: string;
-		}
-	}
-}

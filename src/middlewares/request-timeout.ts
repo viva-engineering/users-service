@@ -1,6 +1,5 @@
 
 import { MiddlewareInput } from '@celeri/http-server';
-import { MiddlewareFunction } from '@celeri/middleware-pipeline';
 import { isShuttingDown } from '@viva-eng/cluster';
 import { HttpError } from '@celeri/http-error';
 import { errorHandler } from './error-handler';
@@ -11,8 +10,8 @@ import { errorHandler } from './error-handler';
  *
  * @param timeout The timeout duration in milliseconds
  */
-export const requestTimeout = (timeout: number) : MiddlewareFunction<MiddlewareInput> => {
-	return ({ req, res }) => {
+export const requestTimeout = (timeout: number) => {
+	return ({ req, res }: MiddlewareInput<any, any>) => {
 		let requestFinished = false;
 
 		req.on('end', () => {

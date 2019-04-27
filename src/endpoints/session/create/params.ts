@@ -1,32 +1,28 @@
 
 import { HttpError } from '@celeri/http-error';
 import { MiddlewareInput } from '@celeri/http-server';
+import { schemaValidator } from '../../../utils/validate-schema';
 import { StringField, EmailField } from '@viva-eng/payload-validator';
 
-export interface LoginRequest {
+export interface Req {
+	body?: Body;
+}
+
+export interface Body {
 	email: string;
 	password: string;
 }
 
-const schema = {
+const validate = schemaValidator<Body>({
 	email: new EmailField({ required: true }),
 	password: new StringField({ required: true })
-};
-
-const schemaKeys = Object.keys(schema);
-
-export interface ValidationErrors {
-	email?: string[],
-	password?: string[]
-}
+});
 
 /**
  * Validates a request payload for the `POST /session` endpoint
  */
-export const validatePostPayload = ({ req, res }: MiddlewareInput) => {
-	const body = req.body as LoginRequest;
-
-	if (! body) {
+export const validateBody = ({ req, res }: MiddlewareInput<void, Req>) => {
+	if (! req.body) {
 		throw new HttpError(400, 'Request payload is required', {
 			expected: {
 				email: 'string',
@@ -35,22 +31,10 @@ export const validatePostPayload = ({ req, res }: MiddlewareInput) => {
 		});
 	}
 
-	let hasErrors = false;
-	const errors: ValidationErrors = { };
-
-	schemaKeys.forEach((field) => {
-		const value = body[field];
-		const validator = schema[field];
-		const fieldErrors: string[] = validator.validate(value);
-
-		if (fieldErrors.length) {
-			hasErrors = true;
-			errors[field] = fieldErrors;
-		}
-	});
+	const errors = validate(req.body);
 
 	// If there were validation failures, return an error to the client
-	if (hasErrors) {
+	if (errors) {
 		throw new HttpError(422, 'Invalid request body contents', { errors });
 	}
 };

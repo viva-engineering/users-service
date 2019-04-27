@@ -25,7 +25,7 @@ interface AuthenticateParams {
 	required?: true;
 }
 
-export const authenticate = (params: AuthenticateParams = { }) : MiddlewareFunction<MiddlewareInput> => {
+export const authenticate = (params: AuthenticateParams = { }) : MiddlewareFunction<MiddlewareInput<any, any>> => {
 	return async ({ req, res }) => {
 		const sessionToken = getToken(req.headers['x-user-token'], params.required);
 

@@ -2,10 +2,7 @@
 import { server } from '../../../server';
 import { authenticate } from '../../../middlewares/authenticate';
 import { getUser } from './service';
-
-interface Params {
-	userCode: string;
-}
+import { Params } from './params';
 
 server
 	.get<Params>('/user/:userCode')

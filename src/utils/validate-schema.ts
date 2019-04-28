@@ -1,5 +1,5 @@
 
-import { Field } from '@viva-eng/payload-validator';
+import { Field, StringField } from '@viva-eng/payload-validator';
 
 type Schema<K extends string|number|symbol> = {
 	[T in K]: Field<any>;
@@ -31,4 +31,8 @@ export const schemaValidator = <B>(schema: Schema<keyof B>) => {
 			return errors;
 		}
 	};
+};
+
+export const userCodeField = (required: boolean = false) => {
+	return new StringField({ minLength: 40, maxLength: 40, required });
 };

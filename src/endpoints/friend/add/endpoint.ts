@@ -1,18 +1,15 @@
 
 import { server } from '../../../server';
 import { authenticate } from '../../../middlewares/authenticate';
-
-interface PathParams {
-	userCode: string;
-}
+import { Params } from './params';
+import { createFriendRequest } from './service';
 
 server
-	.post<PathParams>('/friend/:userCode')
+	.post<Params>('/friend/:userCode')
 	.use(authenticate({ required: true }))
 	.use(async ({ req, res }) => {
-		await addFriend(req.user.userId, req.params.userCode);
-		const payload = JSON.stringify(users);
+		await createFriendRequest(req.user, req.params.userCode);
 
-		res.writeHead(200, { 'content-type': 'application/json' });
-		res.end(payload);
+		res.writeHead(201, { });
+		res.end();
 	});

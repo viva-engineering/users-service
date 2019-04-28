@@ -334,12 +334,12 @@
         "signature": "09fb37039535f9d553734e8e31349d3e0a1eba0fd3c500eb5011b6a00a9e8053"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/query.d.ts": {
-        "version": "0516ee10bbf173206fbfe03313c796443d2669249d1bd13f02e6e6b6df628b53",
-        "signature": "0516ee10bbf173206fbfe03313c796443d2669249d1bd13f02e6e6b6df628b53"
+        "version": "671dfe587675aac6f176283728fa344f82591894aefb03266bc58916b2e098e1",
+        "signature": "671dfe587675aac6f176283728fa344f82591894aefb03266bc58916b2e098e1"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts": {
-        "version": "a02e1cba3a8b98aafa8f0dd00c15ae77946e6628d9f2d138473ecec4fc37f535",
-        "signature": "a02e1cba3a8b98aafa8f0dd00c15ae77946e6628d9f2d138473ecec4fc37f535"
+        "version": "f58c378469f10fc097086144d3cb379c721e826492264f6d3b9e9f1ec2374f79",
+        "signature": "f58c378469f10fc097086144d3cb379c721e826492264f6d3b9e9f1ec2374f79"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/queries.d.ts": {
         "version": "ae2cb8015c8a91b98ea6f9bf394866524166055bf929f44d9b47e75cd9b7e415",
@@ -489,33 +489,25 @@
         "version": "d94613be73d8cf5ef452b47058ebc670999c3879af3901e194bbf5bc2aa035e6",
         "signature": "d94613be73d8cf5ef452b47058ebc670999c3879af3901e194bbf5bc2aa035e6"
       },
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": {
-        "version": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95",
-        "signature": "b3eb68e528687bd5ea37e74d5ef30eb303aefa16d9a9c1e114b9fcfd02872a95"
-      },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/server.d.ts": {
-        "version": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9",
-        "signature": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9"
+        "version": "a5fc2b1b0b4920d3679fd6790e3d4bf5d31d68b07ab390db2a09fd4e24284c09",
+        "signature": "a5fc2b1b0b4920d3679fd6790e3d4bf5d31d68b07ab390db2a09fd4e24284c09"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/config.d.ts": {
-        "version": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4",
-        "signature": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4"
+        "version": "05ff37aa1da13f4f8c79b91a86168b9a4b6e11b37508335d18d28528db6b5d39",
+        "signature": "05ff37aa1da13f4f8c79b91a86168b9a4b6e11b37508335d18d28528db6b5d39"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts": {
         "version": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20",
         "signature": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/request-logger/build/index.d.ts": {
-        "version": "240ae8010df71454923170884ce99939bb35f86175d6b48557608cf7bbbb3489",
-        "signature": "240ae8010df71454923170884ce99939bb35f86175d6b48557608cf7bbbb3489"
+        "version": "328e55f750132420bc0664abe1906486bfeb777aca88857539238c4d8b397904",
+        "signature": "328e55f750132420bc0664abe1906486bfeb777aca88857539238c4d8b397904"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/index.ts": {
         "version": "d77426d8d14c893fb38b01de6811e353473730eed07db8605835231cf89eb003",
         "signature": "4e599069e86fb7c83632198a4e569869a149520c7f406adaf28c79b00a85b032"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": {
-        "version": "6c05e718764a99a3b4020b0726264cfc8577b57d2144a121a2236c55215c2ddb",
-        "signature": "6c05e718764a99a3b4020b0726264cfc8577b57d2144a121a2236c55215c2ddb"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts": {
         "version": "f351f48dab4023827197d78647d1158b05abe49e8274ab3ea2ec264734e4db8f",
@@ -534,12 +526,24 @@
         "signature": "45b5b6809254bbc4afa3a3ecbfa05db0fced7758bd42f5c24f586654a9dcdf56"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts": {
-        "version": "7059b01bdb44264e60b5c76da446ed4a277ea99283d333667f67b0b6933228e4",
-        "signature": "7059b01bdb44264e60b5c76da446ed4a277ea99283d333667f67b0b6933228e4"
+        "version": "71599498b2189f339fa31e967ec72fb52851e1e0aca69f0c43a5d771f1a823fb",
+        "signature": "71599498b2189f339fa31e967ec72fb52851e1e0aca69f0c43a5d771f1a823fb"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/http-error.d.ts": {
         "version": "654a4a5d1e469d9d432380aad742d85ce742abe6bca25d36f7fef3d8f62d7ee3",
         "signature": "654a4a5d1e469d9d432380aad742d85ce742abe6bca25d36f7fef3d8f62d7ee3"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts": {
+        "version": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9",
+        "signature": "2e0b9e0c8c9eeb280f510b72ab68f5b02b21843304614e0ba08f527781fa90f9"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts": {
+        "version": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4",
+        "signature": "643ea2de6d25250c4a597f0f0320df7c9bfd993d6a1c171c452de109358361c4"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts": {
+        "version": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20",
+        "signature": "6bb8942603d2c08a5f75e1e596bf9fc68118de0b7adbc2227eecda4a89e43c20"
       },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/error-handler.d.ts": {
         "version": "2bbf1823770d3ab725444ca520869a7cb59c815495a17d7453a60a7efa8a0480",
@@ -550,11 +554,11 @@
         "signature": "406b0e96f5810795505644db1547ad099e0bc242fe0c00b071364e808d91e42b"
       },
       "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts": {
-        "version": "c588f5941550e0cfac2f4a44497f13df66170c50e2e621ad98f0eeb6afba5377",
-        "signature": "a034291207c1d5fb7a52cd80c68df9eb685c9bd989468a67be3d8c9dabebee73"
+        "version": "c8546d7595ff94ad351758251012f90dd52f5c6095d498026ea5c32dbf563b8a",
+        "signature": "47f65e4973d6c6c8e20c893d6576037c9a597b8bc19c3c26e4abe754684902d4"
       },
       "d:/james/projects/viva/services/users-service/src/server.ts": {
-        "version": "bee1275208bcded87eeafef14dbaf2898bc1e3c320773314e8431b9c73d1ed74",
+        "version": "d5e9242cfde55181ec680d2fd144cc50265c2e241a1db8de3733875cc5a8dd14",
         "signature": "65ffbf284538018af382868a9eb72ef06a3897d1ac62ee399fa8a370b4f28599"
       },
       "d:/james/projects/viva/services/users-service/src/start.ts": {
@@ -564,34 +568,6 @@
       "d:/james/projects/viva/services/users-service/src/endpoints/healthcheck.ts": {
         "version": "7f27cc34bf03b75f220515814ff205ba2486c10bbc5be85b7375f381a6642ef1",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": {
-        "version": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8",
-        "signature": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": {
-        "version": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e",
-        "signature": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": {
-        "version": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c",
-        "signature": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": {
-        "version": "7901f06839c6c90c73ca856314650cdcd26ef2550efa85f1b7a19f815be20cc7",
-        "signature": "7901f06839c6c90c73ca856314650cdcd26ef2550efa85f1b7a19f815be20cc7"
-      },
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": {
-        "version": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c",
-        "signature": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c"
-      },
-      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts": {
-        "version": "efe52cbc46f4fb65cb61ad96d9dcc58503deef518eac826919e70c7a296caae2",
-        "signature": "474dff84e896f249b6dd3dad5fa701742dfc5e3a30740b3934b11be64542441f"
-      },
-      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts": {
-        "version": "e465f337b1c4e8a6922fb50a45faa2f96c41df9c2b5995b2e87b3588cda6d100",
-        "signature": "9ff9274f8891cc18de2a4731261630465464edc8f3e0c4a4b8d90f6ae15edba0"
       },
       "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts": {
         "version": "04f5c771a9fd72787b3e43e7b2c57a8b6b5dc6c123525bd5e2ad6be435402de4",
@@ -621,80 +597,144 @@
         "version": "d7062d0500e9bf344132bebe8369e3e6326e3b724570292df5f90504cf6e18c4",
         "signature": "8a43cd0629d85c4c9aa81056c2b7081d564ca8827b9b2b514422bc11a967c060"
       },
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": {
-        "version": "76b7af634daaf6729f9a98de96bbe74acd2ca509332d94a9f843285b7dd0ead5",
-        "signature": "634c9709e024b355e59435dc6b53b7be44545c8291236c3b87c4283787516104"
-      },
-      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": {
-        "version": "af618068c08fcd13e46851244584483e1ec4b09a6fb9f4b34321cb9076554b5f",
-        "signature": "d47e9a5426fa07d7f51e366bad6a822bec9bcfa94220cab7f9e68776aa754ba5"
-      },
       "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts": {
         "version": "0f55c57b8d8bfed250889a3206b48d4c7ebdb66d6d97b644de9893db80580399",
         "signature": "80d0b7a252fb5cae60f3e85434c3d3881827725059bf1cc09f64c2fa076aa604"
       },
-      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts": {
-        "version": "b219ae39efc63794cbaea6b86693586127540b666b674b18a3a48c25eba67035",
-        "signature": "849d5d6234293dd93f203fb01456e65eeb1d8805116f203cf579959c1177a5e5"
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts": {
+        "version": "90781015452abe8a5fba5cd8a40638139e24cf917332faaa08570f257d875e11",
+        "signature": "da4db69b12f995630f7de08df0ec30e64a7c3bffa4522467ba99909125f517ae"
+      },
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts": {
+        "version": "37af228ead159b26991177fdece14691eb13cad50fb36ede8688b28417cea47b",
+        "signature": "362ef8c12f3a3ee96f1cf7f8321dbcf821c405e31887c30416a0b6574018d356"
       },
       "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts": {
         "version": "13b116b632c7a7d6b93a525eb3cff5d5b28d7a888417ea43498050a6841d74bc",
         "signature": "8f5d597779d520fbe85490b3f977ea80db33bf34f7eb117c0bc07086638be5d5"
       },
       "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts": {
-        "version": "f1d1d528000c559699d6db27ae0c2c07388a95e91668ad6818ef632a84e039a6",
+        "version": "6325dbcbcf087831542f43a1cb417e4392fe16a57862deeb8251498953d44d79",
         "signature": "5e33338195e03ac8b5be8f777dbb0f903a207b35392a87bc0921a1b0d9ef2cec"
       },
+      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts": {
+        "version": "d476fcbddd408eb2f7fd951acb603952a1525399684404a5809b454fe077f840",
+        "signature": "01638123710281a380a58008d79b9fce7eb65c7d56b1eec38ad47d13f5a8396d"
+      },
       "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts": {
-        "version": "63b27888769ef4eb9db0210330e2eb891d23285844b1b7602cecce9431391ba7",
-        "signature": "5025b419a48217d653a22689c2737649c2736842b401405f9369792a879cfed1"
+        "version": "a78597dd032db1a0d10ed5fa236c9bd2930118328c57b498ee41896068139f30",
+        "signature": "d643ae14fbdef6b744dbb835b0b7fa3f3eb17e8cee7a404e8ed7bb480dccc98e"
       },
       "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts": {
-        "version": "ea2ba39e5557ec50f308db936ecc182707c90b117a7f77698be67e0f1f728d10",
-        "signature": "a9e2f5a47173d2fd78e00c9827637993e6a6575b252a537f00c5ad6427f7e96c"
+        "version": "0585add9bddb001bd7b7454e0c40b50cead146f8bed33abbb806316c49b61698",
+        "signature": "fc8a3e451be9566358dcd401ffc1ed890989d00831035daaae429ee89a2af301"
+      },
+      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts": {
+        "version": "5f4170afe6a8c05799ce2a71d9060b0c2ca0cb9c55fd57779496b54759083d3f",
+        "signature": "07f94fe4ddd0c0938c0e424f99d88e23ca148609b00f050cfb555cc359eb1298"
       },
       "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts": {
-        "version": "aa97c404553c7db635731b6e3a25db623ab37ed21d506e54d934829a6bd4bfeb",
-        "signature": "4296bdc71554c3b55ad1da4f7fed68541b8a79d4ecd910d6190530a41ffdeef1"
+        "version": "5deabd99a1f60d2a374a92d68cc06bb2fb42c138c12f3fce8212bba607da380b",
+        "signature": "b436fd12fb38a38f28cf028bfd5fd27c033a8bcc7be39738308908218aca1098"
+      },
+      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts": {
+        "version": "280f8e94850d632fc3533827c37c687f2a83f12618ee101dc8e260de5016c0c1",
+        "signature": "c1fbbf215637bb3b0aee171e92ff40633682f968a66db9c1aff80ace0fcf198f"
+      },
+      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts": {
+        "version": "91eeaec2e2decb79aae9285d5ed4fd1f4f8d3d094969386be7a16aa8709422fd",
+        "signature": "1b241db8c4b1942b6d9309055bdd0266ceea0ad8bf89f1e6cc349e2b9e51be34"
       },
       "d:/james/projects/viva/services/users-service/src/queries/index.ts": {
-        "version": "f08db1389eed062e30307db30fdebc6d6bca2f0124a99778e6a49b69c4e34dba",
-        "signature": "0745bdd39bc9b8c6d5376e56a344e3d1e6258e2f23e8cc4d20a9ebd05ea9ab0c"
+        "version": "0f5e93e8eff064757ef20c1ac6dd3fd10ddef6504dd7cfc44fce15e3eb1e8e1b",
+        "signature": "caf33b3044a1275719c4dda9f27cbe6d0c021212dbc84a55ef94fb9a42499e23"
+      },
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": {
+        "version": "76b7af634daaf6729f9a98de96bbe74acd2ca509332d94a9f843285b7dd0ead5",
+        "signature": "634c9709e024b355e59435dc6b53b7be44545c8291236c3b87c4283787516104"
+      },
+      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": {
+        "version": "220458a9f9fada545c24d363d66b734ec6f447b471f534ca7f63ce08e16bcbb9",
+        "signature": "9ca3813a518ec47bad44821f02ce06e6352996e5b4958b9ca5d0c68e8953495f"
+      },
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/params.ts": {
+        "version": "cf655ad239995f65c2165a7a4978b18c482c5507389fa1c052b5c30e2e960b80",
+        "signature": "0ead7cd15a8da8e1b3067b574e7af87faf8b6cfd7c560bc39acceda0a11e13d7"
+      },
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/service.ts": {
+        "version": "3f5bb0598c9d1c57221c795448437487832783e301b757b6ad167f477733424a",
+        "signature": "6a728b78516fa0bf3d95b247dba4f5214bef4faacc102cc678a7871fbc273438"
+      },
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/endpoint.ts": {
+        "version": "bc7f57436b7c387ceb98e7f62b6b0066693ae2b14576f70902ee883a3384fc9d",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": {
+        "version": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8",
+        "signature": "be94be9fe67aafe40c23f53f4a1db33fc258435ddebabbb2350c6ebebd66ccc8"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": {
+        "version": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e",
+        "signature": "e543c9bd3849f272c5fabb613a8b585ce0c44f7642b200c1f372e812643ccd9e"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": {
+        "version": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c",
+        "signature": "a6352af535dd5a74aa38cee5c9306708dd0c8bb8787e28bf4b05d73560b2276c"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": {
+        "version": "7901f06839c6c90c73ca856314650cdcd26ef2550efa85f1b7a19f815be20cc7",
+        "signature": "7901f06839c6c90c73ca856314650cdcd26ef2550efa85f1b7a19f815be20cc7"
+      },
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": {
+        "version": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c",
+        "signature": "70815c5fac9da875376a05bd1276b342c66edf03ceef07fd8ea7dcd7ef1bac8c"
+      },
+      "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts": {
+        "version": "2e711b6cc532dd9e9f28d3b618e770ee7d39b1d0a36d37fcd8bc1bceec8aeb45",
+        "signature": "a38fca0b732cadb2987a7461a7593dada093dcabba53c1d263b95bfba93c082e"
+      },
+      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts": {
+        "version": "b8de686b93cb532a2faaa5e3b8e2bd8d6175fb4497c4828055fb9f5a4af66d3e",
+        "signature": "351dfb6a35fbd6abce84c797c5fb28bd16f749f62bf17f0cb8e2b37be5a886a6"
+      },
+      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts": {
+        "version": "e465f337b1c4e8a6922fb50a45faa2f96c41df9c2b5995b2e87b3588cda6d100",
+        "signature": "9ff9274f8891cc18de2a4731261630465464edc8f3e0c4a4b8d90f6ae15edba0"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/service.ts": {
-        "version": "e2fee8b33015d6b509d9a75d319de046b71672397e7f27d6331d6c7324e86e16",
-        "signature": "7c115f8498a90aec88792ecb57a6d907fd9b749f9f54efd20be6de7f5d12f972"
+        "version": "3cf414ae6ad7e65b991e54ff5ab7d4a19371bf67fdf9e0fd85989c4b60db3c47",
+        "signature": "2bfbf9e6f2a0e0983207ee8b25fafe798940d2126f451bcc3c1d4975299f9017"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/endpoint.ts": {
-        "version": "82ab13ec5f3b13f7a05d366820f28622eb01560906eaedf434bc4413fd16d605",
+        "version": "44ebe2de0f1e309083d94e0c6cfbcfe0e7a5a042bdbc3dcde5eac5ed1328692c",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts": {
-        "version": "5d09fd2fdef912d6b893977348ba9a9813d547971c9a3604c206e612feabed8c",
-        "signature": "da9b36fe38508d422096064ca1fbb0069da0211b2dc2d0fcfdf07bca2af267e1"
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts": {
+        "version": "e1b91e8177beec26e34f907120a62620546191dfef281ea1ede78c399e84a129",
+        "signature": "7ca71ba9f2f710ba6cd3f6538db66f63ac8a114ffe9454418986e125e4aa26ce"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/create/service.ts": {
-        "version": "6cbf1ec5a90042ce2eaaa0e251534a1dac6be67e9fa817b5edc86124eade97fe",
-        "signature": "7a8d97938cb25d4e516cb4169e2cd8ce4da338e39810b5bedb4e99b040accbcf"
+        "version": "6e5100d682cffcdfb6423f73c582fa55a43b6cf7c2dd00f93c4d6d2b86763869",
+        "signature": "0ba169661d5080c701d57b28334d3733103178405c4f0b17114c552d9ea54d70"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/create/endpoint.ts": {
-        "version": "57d4c4af9e109220ccd6c415771ebbdb905fac8c08b077e00b77ef8142fe0a9d",
+        "version": "fa9c1515bcfb054ec7e924bc3b3d97b9f338616a7b63613d3ade7f9cadce122d",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
-      },
-      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts": {
-        "version": "e7c671575ae6f051d6e2ed98a742b8f78d10f611e1aeb7ad58f3a80d990d38de",
-        "signature": "5cba19accbbff35d1e56ffb5bca309d629d33ee491abb8344f1fa89b14078295"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/service.ts": {
         "version": "b0ccc4eee2c870a5d413712163aa9fecf7c6fc7aeeb54cd4d5f04fd9ba19eed8",
         "signature": "5bd75703d8707cfb91811ab086435c2324bae911dcbb8cbf8f9305482c62ea45"
       },
+      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts": {
+        "version": "dd7e27a9f1337c88548581f8b9c2f51cf2d92a91cd8ef553d5a5e1ec722af6c9",
+        "signature": "8f8f091def61c1c1eb9406dbd82abe79f7a7e2c65fb8ecfd79478c7d22231431"
+      },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/endpoint.ts": {
-        "version": "466e206c1786f3f81ddb8c2b40e692633cbcc9c5e2145fcef10449022419275b",
+        "version": "23ef63c97d9da336c031086c8f312900c5d3fd516b79c8bbef022dc1b5720daa",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/read/endpoint.ts": {
-        "version": "0ce0673163ebf466f191a66a5f2f3c188c2fbb3b012d450ed5a47e2cce53d857",
+        "version": "ab45acc0fc6a1ce0c6a3e4a775b4d6208767a38dee766b832f160c9ac83a811e",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/renew/service.ts": {
@@ -702,7 +742,7 @@
         "signature": "7ed4c105b8fb7fe47f319f02d7fd9db592c687c918a599ed3d4788167d40eceb"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/session/renew/endpoint.ts": {
-        "version": "8bc41a155ee8d848581e033d7ba2ffedbc6d4f44abbacad683a30f3d22549e7f",
+        "version": "f6ec33969c5a9b530b9901a3a665a23a16bb026a2c37a4c9f7e7c083c0be731e",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/edit-profile/endpoint.ts": {
@@ -713,32 +753,32 @@
         "version": "2f617564d6713c2a015c83078933da21c3a2cf573bf0642609dd4a12d3fc4e1a",
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts": {
-        "version": "de2f5407e9ee7e803f9e2748f8a2a957ae419c9e41575805e56edc722697facf",
-        "signature": "de2f5407e9ee7e803f9e2748f8a2a957ae419c9e41575805e56edc722697facf"
-      },
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/index.d.ts": {
-        "version": "66731b122dcabb1984cc4bd2945d8fe9037821381c52d0765610662af734cbab",
-        "signature": "66731b122dcabb1984cc4bd2945d8fe9037821381c52d0765610662af734cbab"
+        "version": "933a6058a236f29f781098399631ee7e621653b17841963adad4c510c793fb6e",
+        "signature": "933a6058a236f29f781098399631ee7e621653b17841963adad4c510c793fb6e"
       },
-      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts": {
-        "version": "65c9b17ca0e6f105b5d8249b0854a7e4e5e508a44b7869b791e05185bbef78ed",
-        "signature": "49490e6866982620cdaa45d53cf5403405acc3c89ef9906b871efd080d3a913a"
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts": {
+        "version": "82dc0f8db873ff9d61818ed3565e93a1ba73149df3b8807eec5872099a0b5e59",
+        "signature": "8db69fb45c9cd1fd57be8db5ccd3d9b60603ecaec25896dc697fa1691c00609a"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/find/service.ts": {
-        "version": "96e964463599daff40ca31621b6a7b5313e498dac420d08e9497dcdb218ab9bf",
-        "signature": "281ed5b660be7b5a02960a258c3515014a88ed1cbe48876a072f55d8765727c5"
+        "version": "63e98a1b2998e1827ff849497c43401877beb5e112aad0d7e09b0b4dc7706257",
+        "signature": "a361d8b69f4413b72e3daeb7124a6b353bb18c3e17be25a6b8aa5cacb3d24859"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/find/endpoint.ts": {
-        "version": "e2be7e5e7e87aadc2aa5de2418ae438a97d7a647d19f63ff512d96bd2b0ead60",
+        "version": "ffd5bc509ce6581cea541be491d38810c5055091c65fc36ff99860fbbbcd61e5",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/service.ts": {
         "version": "12844f58c9cc59c254e90be3aaa1f6262051afcb58ecc794c24d9764bfdc6c17",
         "signature": "079e531bd57a193a4c5bc5b85dbdaaf471b6963684da45d26d23c1547307d241"
       },
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/params.ts": {
+        "version": "cf655ad239995f65c2165a7a4978b18c482c5507389fa1c052b5c30e2e960b80",
+        "signature": "0ead7cd15a8da8e1b3067b574e7af87faf8b6cfd7c560bc39acceda0a11e13d7"
+      },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/endpoint.ts": {
-        "version": "e11bed27935a4739c43b8cf573783e1698006512ec50b085dcae0ca481361199",
+        "version": "d873086919a1dd080c271132088ffd0a249a118038af11492198ca78ecb6b30f",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
       },
       "d:/james/projects/viva/services/users-service/src/endpoints/user/override/endpoint.ts": {
@@ -750,28 +790,12 @@
         "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "d:/james/projects/viva/services/users-service/src/middlewares/authorize.ts": {
-        "version": "36a9ef7cbc9eaf2b3d48fc344cf91fb75b6cdb7af4b7e2dc928480d317360de9",
-        "signature": "6e9b2e1a7bd5cfdae240be69a5fac047451d2cb80efae7dfdb28eafe4ff15ec1"
+        "version": "05434275cb6b07e7436d8140fcedf5c1b15fe4b143114d75f3dd2f0100111513",
+        "signature": "6e07e5ab7220753986214448fe9d5be375b21bff156ee95069688447663f3f3c"
       },
       "d:/james/projects/viva/services/users-service/src/middlewares/request-timeout.ts": {
-        "version": "321df5fadf1246732ecd683e10aa94924c1f270cc86f1b864f90f3b1722450e0",
-        "signature": "f478024f67ac52cfcd635d7814f88c7448ad7ee5012d8402195dce36bff1c371"
-      },
-      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts": {
-        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "version": "54a052d7f9c30dd81a883f879b3645e48e861895069b110b614a6a2b0155650c",
+        "signature": "7b77e1d400b832bbed51e73a0519977850a49c891d8116ac479d677ca9f51f72"
       },
       "d:/james/projects/viva/services/users-service/src/queries/moderation/create-user-note.ts": {
         "version": "6ecda6c02b9ded986a70d31fd06c5a6ac173a204712c18f9bfb1d2ed71bff1ae",
@@ -1508,10 +1532,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/server.d.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
@@ -1536,20 +1556,11 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/request-logger/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/src/endpoints/index.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1573,7 +1584,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
@@ -1585,10 +1595,33 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/error-handler.d.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/http-error.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1632,47 +1665,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/os.d.ts",
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts": [
-        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
-        "d:/james/projects/viva/services/users-service/src/config.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/argon2/argon2.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1723,29 +1715,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": [
-        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
-        "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/index.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
-        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
@@ -1754,7 +1723,14 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts": [
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
@@ -1777,6 +1753,13 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
@@ -1794,10 +1777,32 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
         "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1810,11 +1815,105 @@
         "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts",
         "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts",
         "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts",
         "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts",
         "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts",
         "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts",
         "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": [
+        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
+        "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/index.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/service.ts": [
+        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/index.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/endpoint.ts": [
+        "d:/james/projects/viva/services/users-service/src/server.ts",
+        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/params.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/service.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts": [
+        "d:/james/projects/viva/services/users-service/src/logger/index.ts",
+        "d:/james/projects/viva/services/users-service/src/config.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/argon2/argon2.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1823,7 +1922,7 @@
         "d:/james/projects/viva/services/users-service/src/utils/hasher.ts",
         "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/src/queries/index.ts",
@@ -1833,14 +1932,15 @@
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/endpoint.ts": [
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts",
         "d:/james/projects/viva/services/users-service/src/endpoints/register/create/service.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts": [
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1850,7 +1950,7 @@
         "d:/james/projects/viva/services/users-service/src/utils/hasher.ts",
         "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/src/queries/index.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
@@ -1860,19 +1960,8 @@
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts",
         "d:/james/projects/viva/services/users-service/src/endpoints/session/create/service.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1885,11 +1974,18 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/endpoint.ts": [
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
         "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/service.ts",
+        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1928,27 +2024,17 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/querystring.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts": [
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -1957,7 +2043,7 @@
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts",
         "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
         "d:/james/projects/viva/services/users-service/src/queries/index.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
@@ -1967,7 +2053,7 @@
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts",
         "d:/james/projects/viva/services/users-service/src/endpoints/user/find/service.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1982,10 +2068,15 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/endpoint.ts": [
         "d:/james/projects/viva/services/users-service/src/server.ts",
         "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
         "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/service.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/params.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2006,26 +2097,9 @@
       ],
       "d:/james/projects/viva/services/users-service/src/middlewares/request-timeout.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/cluster/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2726,10 +2800,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/server.d.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
@@ -2754,15 +2824,7 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/request-logger/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
@@ -2786,7 +2848,6 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
@@ -2819,6 +2880,81 @@
         "d:/james/projects/viva/services/users-service/src/database.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
       ],
+      "d:/james/projects/viva/services/users-service/src/queries/auth/create-credentials.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/auth/create-session.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/auth/delete-session.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/auth/get-login-details.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/index.ts": [
+        "d:/james/projects/viva/services/users-service/src/queries/auth/create-credentials.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/auth/create-session.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/auth/delete-session.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/auth/get-login-details.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts",
+        "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
+      ],
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
@@ -2846,103 +2982,24 @@
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/auth/create-credentials.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/auth/create-session.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/auth/delete-session.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/auth/get-login-details.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/queries/index.ts": [
-        "d:/james/projects/viva/services/users-service/src/queries/auth/create-credentials.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/auth/create-session.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/auth/delete-session.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/auth/get-login-details.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts",
-        "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts"
-      ],
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/service.ts": [
-        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
+        "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts"
       ],
       "d:/james/projects/viva/services/users-service/src/endpoints/session/create/service.ts": [
-        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts"
+        "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts"
       ],
       "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
-      ],
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/querystring.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
-        "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/index.d.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
-      ],
       "d:/james/projects/viva/services/users-service/src/endpoints/user/find/service.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts",
+        "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts",
         "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts"
       ],
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/service.ts": [
@@ -2954,25 +3011,69 @@
         "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
       ],
       "d:/james/projects/viva/services/users-service/src/middlewares/request-timeout.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts"
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts": [
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/service.ts": [
+        "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts": [
+      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts": [
+      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts": [
         "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/query.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts"
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
       ],
-      "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts": [
-        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
-        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts"
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/http.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/https.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/util.d.ts",
+        "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
+      ],
+      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts": [
+        "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -3046,7 +3147,9 @@
       "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/util.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/globals.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@types/node/ts3.2/index.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/argon2/argon2.d.ts",
+      "d:/james/projects/viva/services/users-service/src/config.ts",
       "d:/james/projects/viva/services/users-service/node_modules/colors/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/logger/build/format/format.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/logger/build/logger.d.ts",
@@ -3056,6 +3159,7 @@
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/logger/build/format/readable.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/logger/build/index.d.ts",
       "d:/james/projects/viva/services/users-service/src/logger/pretty.ts",
+      "d:/james/projects/viva/services/users-service/src/logger/index.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/types.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/schema.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/i18n/tables/i18n-components.d.ts",
@@ -3064,6 +3168,7 @@
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/i18n/tables/i18n-languages.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/applications.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/credentials.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/friends.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/moderator-notes.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/page-follows.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/pages.d.ts",
@@ -3080,6 +3185,7 @@
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/posts/tables/post-privacy-rules.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/posts/tables/post-privacy-settings.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/posts/tables/posts.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/column-types.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/cluster/build/shutdown.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/cluster/build/config.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/cluster/build/index.d.ts",
@@ -3088,89 +3194,90 @@
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/regex-router/route.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/regex-router/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/router/build/index.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/node_modules/@celeri/middleware-pipeline/build/index.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/server.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/config.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/request-logger/build/index.d.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/index.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/json.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/plain.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/error.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/http-error.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/error-handler.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/src/start.ts",
+      "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/field.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/string.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/email.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/field-types/number.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/payload-validator/build/index.d.ts",
-      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/middlewares.ts",
-      "d:/james/projects/viva/services/users-service/src/utils/random-keys.ts",
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/middlewares.ts",
+      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/edit-profile/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/edit-profile/middlewares.ts",
-      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/middlewares.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/override/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/override/service.ts",
-      "d:/james/projects/viva/services/users-service/src/middlewares/request-timeout.ts",
-      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts",
       "d:/james/projects/viva/services/users-service/src/queries/moderation/create-user-note.ts",
       "d:/james/projects/viva/services/users-service/src/queries/moderation/override-profile.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@types/mysql/index.d.ts",
-      "d:/james/projects/viva/services/users-service/src/config.ts",
-      "d:/james/projects/viva/services/users-service/src/logger/index.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/query.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/database/build/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/queries.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/schemas/users/tables/friends.d.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/column-types.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@viva-eng/viva-database/build/index.d.ts",
       "d:/james/projects/viva/services/users-service/src/database.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/extend-request.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/server.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/config.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-server/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/request-logger/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/parsers/index.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/body-parser/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/server.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/config.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/node_modules/@celeri/http-server/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/error-handler.d.ts",
+      "d:/james/projects/viva/services/users-service/node_modules/@celeri/http-error/build/index.d.ts",
       "d:/james/projects/viva/services/users-service/src/middlewares/error-handler.ts",
       "d:/james/projects/viva/services/users-service/src/server.ts",
-      "d:/james/projects/viva/services/users-service/src/start.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/healthcheck.ts",
-      "d:/james/projects/viva/services/users-service/src/utils/hasher.ts",
       "d:/james/projects/viva/services/users-service/src/queries/auth/create-credentials.ts",
       "d:/james/projects/viva/services/users-service/src/queries/auth/create-session.ts",
       "d:/james/projects/viva/services/users-service/src/queries/auth/delete-session.ts",
       "d:/james/projects/viva/services/users-service/src/queries/auth/get-login-details.ts",
       "d:/james/projects/viva/services/users-service/src/queries/auth/get-session.ts",
       "d:/james/projects/viva/services/users-service/src/queries/users/create-user.ts",
-      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts",
-      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
       "d:/james/projects/viva/services/users-service/src/queries/users/get-user-profile.ts",
-      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-email.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/users/lookup-user-id-by-code.ts",
       "d:/james/projects/viva/services/users-service/src/queries/users/search-user.ts",
       "d:/james/projects/viva/services/users-service/src/queries/friends/add-friend.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts",
       "d:/james/projects/viva/services/users-service/src/queries/friends/friend-ids.ts",
       "d:/james/projects/viva/services/users-service/src/queries/friends/count-friends.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts",
       "d:/james/projects/viva/services/users-service/src/queries/friends/list-friends.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts",
+      "d:/james/projects/viva/services/users-service/src/queries/friends/remove-friend.ts",
       "d:/james/projects/viva/services/users-service/src/queries/index.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/read/service.ts",
+      "d:/james/projects/viva/services/users-service/src/middlewares/authenticate.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/params.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/service.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/friend/add/endpoint.ts",
+      "d:/james/projects/viva/services/users-service/src/utils/validate-schema.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/register/create/params.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/service.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/register/create/endpoint.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/session/create/params.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/create/service.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/create/endpoint.ts",
-      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/service.ts",
+      "d:/james/projects/viva/services/users-service/src/middlewares/tokens.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/destroy/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/read/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/renew/service.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/session/renew/endpoint.ts",
-      "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/extend-request.d.ts",
       "d:/james/projects/viva/services/users-service/node_modules/@celeri/query-parser/build/index.d.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/find/params.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/find/service.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/find/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/service.ts",
+      "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/params.ts",
       "d:/james/projects/viva/services/users-service/src/endpoints/user/get-profile/endpoint.ts",
       "d:/james/projects/viva/services/users-service/src/middlewares/authorize.ts",
-      "d:/james/projects/viva/services/users-service/src/queries/friends/confirm-friend.ts",
-      "d:/james/projects/viva/services/users-service/src/queries/friends/decline-friend.ts",
-      "d:/james/projects/viva/services/users-service/src/queries/friends/list-friend-requests.ts"
+      "d:/james/projects/viva/services/users-service/src/middlewares/request-timeout.ts"
     ]
   },
   "version": "3.4.1"

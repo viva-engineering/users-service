@@ -3,101 +3,30 @@ import { logger } from '../../../logger';
 import { HttpError } from '@celeri/http-error';
 import { TransactionType } from '@viva-eng/database';
 import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
-import { SearchUserQueryParams } from './middlewares';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
-import { searchUser } from '../../../queries';
-
-const privilegedRoles = new Set([
-	UserRole.System,
-	UserRole.Admin,
-	UserRole.SuperModerator,
-	UserRole.Moderator
-]);
-
-export interface FindUserResult {
-	userCode: string;
-	active: Bit;
-	name: string;
-	email?: string;
-	phone?: string;
-	location?: string;
-	birthday?: string;
-	userRole: UserRole;
-	isFriend?: true;
-	isSelf?: true;
-}
+import { lookupUserIdByUserCode, addFriend } from '../../../queries';
 
 /**
- * Performs a search for users matching the given criteria
+ * Creates a new friend request from the authenticated user to the user given by user code
+ *
+ * @param user The authenticated user
+ * @param userCode The user code of the user to send a friend request to
  */
-export const findUsers = async (query: SearchUserQueryParams, searchAs: AuthenticatedUser) : Promise<FindUserResult[]> => {
-	const isPrivileged = privilegedRoles.has(searchAs.userRole);
-
-	if (query.userId && ! isPrivileged) {
-		throw new HttpError(403, 'Not Authorized');
+export const createFriendRequest = async (user: AuthenticatedUser, userCode: string) : Promise<void> => {
+	if (user.userCode === userCode) {
+		throw new HttpError(400, 'Cannot add self as a friend');
 	}
 
-	try {
-		const records = await searchUser.run({
-			name: query.name,
-			email: query.email,
-			phone: query.phone,
-			userId: query.userId,
-			userCode: query.userCode,
-			searchAsUserId: searchAs.userId,
-			isPrivileged
-		});
+	const userRecords = await lookupUserIdByUserCode.run({ userCode });
 
-		return records.map((record) => {
-			const result: FindUserResult = {
-				userCode: record.user_code,
-				name: record.name,
-				active: record.active,
-				userRole: record.user_role
-			};
-
-			// Minimum needed visibility level needed to view a piece of data
-			const neededVisibility = (record.is_self || isPrivileged)
-				? PrivacyFlag.Private
-				: record.is_friend
-					? PrivacyFlag.FriendsOnly
-					: PrivacyFlag.Public;
-
-			if (record.email_privacy >= neededVisibility) {
-				result.email = record.email;
-			}
-
-			if (record.phone_privacy >= neededVisibility) {
-				result.phone = record.phone;
-			}
-
-			if (record.birthday_privacy >= neededVisibility) {
-				result.birthday = record.birthday;
-			}
-
-			if (record.location_privacy >= neededVisibility) {
-				result.location = record.location;
-			}
-
-			if (record.is_self) {
-				result.isSelf = true;
-			}
-
-			if (record.is_friend) {
-				result.isFriend = true;
-			}
-
-			return result;
-		});
+	if (! userRecords.length) {
+		throw new HttpError(404, 'User with the given user code could not be found');
 	}
 
-	catch (error) {
-		if (error instanceof HttpError) {
-			throw error;
-		}
+	const userId = userRecords[0].id;
 
-		logger.warn('An unexpected error occured while trying to search for users', { error });
-
-		throw new HttpError(500, 'Unexpected server error');
-	}
+	await addFriend.run({
+		requestingUserId: user.userId,
+		requestedUserId: userId
+	});
 };

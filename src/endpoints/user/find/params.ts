@@ -2,6 +2,7 @@
 import { HttpError } from '@celeri/http-error';
 import { MiddlewareInput } from '@celeri/http-server';
 import { StringField, NumberField, EmailField } from '@viva-eng/payload-validator';
+import { userCodeField } from '../../../utils/validate-schema';
 
 export interface Req {
 	query?: QueryParams
@@ -15,11 +16,13 @@ export interface QueryParams {
 	userCode?: string;
 }
 
-const nameField = new StringField({ minLength: 1, maxLength: 255 });
-const emailField = new EmailField({ });
-const phoneField = new StringField({ regex: /^\+?[1-9]\d{1,14}$/ });
-const userIdField = new NumberField({ minValue: 1, allowString: true });
-const userCodeField = new StringField({ minLength: 40, maxLength: 40 });
+const validators = {
+	name: new StringField({ minLength: 1, maxLength: 255 }),
+	email: new EmailField({ }),
+	phone: new StringField({ regex: /^\+?[1-9]\d{1,14}$/ }),
+	userId: new NumberField({ minValue: 1, allowString: true }),
+	userCode: userCodeField()
+};
 
 export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	const query = req.query as QueryParams;
@@ -52,7 +55,7 @@ export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	}
 
 	if (query.name != null) {
-		const errors = nameField.validate(query.name);
+		const errors = validators.name.validate(query.name);
 
 		if (errors.length) {
 			throw new HttpError(422, 'Invalid search parameter "name"', { errors });
@@ -60,7 +63,7 @@ export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	}
 
 	if (query.email != null) {
-		const errors = emailField.validate(query.email);
+		const errors = validators.email.validate(query.email);
 
 		if (errors.length) {
 			throw new HttpError(422, 'Invalid search parameter "email"', { errors });
@@ -68,7 +71,7 @@ export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	}
 
 	if (query.phone != null) {
-		const errors = phoneField.validate(query.phone);
+		const errors = validators.phone.validate(query.phone);
 
 		if (errors.length) {
 			throw new HttpError(422, 'Invalid search parameter "phone"', { errors });
@@ -76,7 +79,7 @@ export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	}
 
 	if (query.userId != null) {
-		const errors = userIdField.validate(query.userId);
+		const errors = validators.userId.validate(query.userId);
 
 		if (errors.length) {
 			throw new HttpError(422, 'Invalid search parameter "userId"', { errors });
@@ -86,7 +89,7 @@ export const validateQuery = ({ req, res }: MiddlewareInput<void, Req>) => {
 	}
 
 	if (query.userCode != null) {
-		const errors = userCodeField.validate(query.userCode);
+		const errors = validators.userCode.validate(query.userCode);
 
 		if (errors.length) {
 			throw new HttpError(422, 'Invalid search parameter "userCode"', { errors });

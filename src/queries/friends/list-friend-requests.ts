@@ -26,9 +26,7 @@ type UserSelectList
 	| typeof user.name
 	| typeof user.phone
 	| typeof user.location
-	| typeof user.birthday
-	| typeof user.active
-	| typeof user.emailValidated;
+	| typeof user.birthday;
 
 type PrivSelectList
 	= typeof priv.emailPrivacy
@@ -59,8 +57,6 @@ class ListFriendRequestsQuery extends SelectQuery<ListFriendRequestsParams, List
 		  user.${user.phone},
 		  user.${user.location},
 		  user.${user.birthday},
-		  user.${user.active},
-		  user.${user.emailValidated},
 		  priv.${priv.emailPrivacy},
 		  priv.${priv.phonePrivacy},
 		  priv.${priv.locationPrivacy},

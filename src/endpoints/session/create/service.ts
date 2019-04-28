@@ -69,10 +69,10 @@ export const loginUser = async (body: Body) : Promise<LoginResult> => {
 };
 
 /**
- * Hashes a new user's password for storage.
- * Throws a generic HttpError<500> in the case of any error during hashing.
+ * Validates that the given password matches the password digest
  *
- * @param password The new password to hash
+ * @param digest The already hashed password digest
+ * @param password The new password to validate
  */
 const verifyPassword = async (digest: string, password: string) : Promise<void> => {
 	try {

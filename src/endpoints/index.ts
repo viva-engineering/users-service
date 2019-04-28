@@ -7,7 +7,8 @@ const endpoints: string[] = [
 	'./session/read/endpoint',
 	'./session/renew/endpoint',
 	'./user/find/endpoint',
-	'./user/get-profile/endpoint'
+	'./user/get-profile/endpoint',
+	'./friend-request/add/endpoint'
 ];
 
 export const loadEndpoints = () => {

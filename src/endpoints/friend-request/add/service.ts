@@ -1,8 +1,6 @@
 
 import { logger } from '../../../logger';
 import { HttpError } from '@celeri/http-error';
-import { TransactionType } from '@viva-eng/database';
-import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
 import { lookupUserIdByUserCode, addFriend } from '../../../queries';
 

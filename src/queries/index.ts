@@ -16,10 +16,12 @@ export { searchUser, SearchUserParams, SearchUserRecord } from './users/search-u
 export { addFriend, AddFriendParams } from './friends/add-friend';
 export { confirmFriend, ConfirmFriendParams } from './friends/confirm-friend';
 export { countFriends, CountFriendsParams, CountFriendsRecord } from './friends/count-friends';
+export { countFriendRequests, CountFriendRequestsParams, CountFriendRequestsRecord } from './friends/count-friend-requests';
 export { declineFriend, DeclineFriendParams } from './friends/decline-friend';
 export { listFriends, ListFriendsParams, ListFriendsRecord } from './friends/list-friends';
 export { listFriendRequests, ListFriendRequestsParams, ListFriendRequestsRecord } from './friends/list-friend-requests';
 export { removeFriend, RemoveFriendParams } from './friends/remove-friend';
+export { withdrawFriendRequest, WithdrawFriendRequestParams } from './friends/withdraw-friend-request';
 
 // export { createUserNote } from './moderation/create-user-note';
 // export { overrideProfile } from './moderation/override-profile';

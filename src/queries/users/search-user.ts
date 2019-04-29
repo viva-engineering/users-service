@@ -3,6 +3,8 @@ import { SelectQueryResult } from '@viva-eng/database';
 import { MysqlError, format } from 'mysql';
 import { AuthenticatedUser } from '../../middlewares/authenticate';
 import { HttpError } from '@celeri/http-error';
+import { friendStatusSubQuery, FriendStatus } from './friend-status';
+import { joinFriendSubQuery } from './join-friends';
 import {
 	SelectQuery,
 	schemas,
@@ -45,7 +47,7 @@ type PrivSelectList
 export type SearchUserRecord
 	= Record<UsersColumns, UserSelectList, {
 		is_self: boolean;
-		is_friend: boolean;
+		friend_status: FriendStatus;
 		user_role: UserRole;
 	}>
 	& Record<UserPrivacySettingsColumns, PrivSelectList, { }>;
@@ -102,13 +104,11 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 				priv.${priv.birthdayPrivacy},
 				role.${role.description} as user_role,
 				(user.${user.id} = ?) as is_self,
-				(friend.${friend.requestingUserId} is not null and friend.${friend.requestedUserId} is not null) as is_friend
+				(?) as friend_status
 			from ${tables.users} user
 			left outer join ${tables.userPrivacySettings} priv
 				on priv.${priv.id} = user.${user.privacySettingsId}
-			left outer join ${tables.friends} friend
-				on (friend.${friend.requestingUserId} = user.${user.id} and friend.${friend.requestedUserId} = ?)
-				or (friend.${friend.requestedUserId} = user.${user.id} and friend.${friend.requestingUserId} = ?)
+			?
 			left outer join ${tables.userRoles} role
 				on role.${role.id} = user.${user.userRoleId}
 		`;
@@ -166,12 +166,15 @@ class SearchUserQuery extends SelectQuery<SearchUserParams, SearchUserRecord> {
 	}
 
 	compile({ searchAsUserId, isPrivileged, name, email, phone, userId, userCode }: SearchUserParams) : string {
+		const friendStatus = friendStatusSubQuery.compile({ userId: searchAsUserId });
+		const joinFriends = joinFriendSubQuery.compile({ userId: searchAsUserId });
+
 		const template = format(this.prepared.template, [
 			// Used in the check for self
 			searchAsUserId,
-			// Used in the check for friends
-			searchAsUserId,
-			searchAsUserId
+			// Used to determine friendship status
+			friendStatus,
+			joinFriends
 		]);
 
 		if (name) {

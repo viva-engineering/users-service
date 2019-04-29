@@ -4,7 +4,7 @@ import { HttpError } from '@celeri/http-error';
 import { TransactionType } from '@viva-eng/database';
 import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
-import { getUserProfile } from '../../../queries';
+import { getUserProfile, FriendStatus } from '../../../queries';
 
 const magicUserCodeSelf = 'self';
 
@@ -24,7 +24,7 @@ export interface GetUserResult {
 	location?: string;
 	birthday?: string;
 	userRole: UserRole;
-	isFriend?: true;
+	friendStatus: FriendStatus;
 	isSelf?: true;
 	privacy?: UserPrivacySettings;
 }
@@ -67,6 +67,7 @@ export const getUser = async (userCode: string, searchAs: AuthenticatedUser) : P
 			userCode: record.user_code,
 			name: record.name,
 			userRole: record.user_role,
+			friendStatus: record.friend_status,
 			active: record.active
 		};
 
@@ -75,7 +76,7 @@ export const getUser = async (userCode: string, searchAs: AuthenticatedUser) : P
 		// Minimum needed visibility level needed to view a piece of data
 		const neededVisibility = isPriviledged
 			? PrivacyFlag.Private
-			: record.is_friend
+			: record.friend_status === FriendStatus.Friends
 				? PrivacyFlag.FriendsOnly
 				: PrivacyFlag.Public;
 
@@ -93,10 +94,6 @@ export const getUser = async (userCode: string, searchAs: AuthenticatedUser) : P
 
 		if (record.location_privacy >= neededVisibility) {
 			result.location = record.location;
-		}
-
-		if (record.is_friend) {
-			result.isFriend = true;
 		}
 
 		if (record.is_self) {

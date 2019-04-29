@@ -5,7 +5,7 @@ import { TransactionType } from '@viva-eng/database';
 import { db, Bit, PrivacyFlag, UserRole } from '@viva-eng/viva-database';
 import { QueryParams } from './params';
 import { AuthenticatedUser } from '../../../middlewares/authenticate';
-import { searchUser } from '../../../queries';
+import { searchUser, FriendStatus } from '../../../queries';
 
 const privilegedRoles = new Set([
 	UserRole.System,
@@ -23,7 +23,7 @@ export interface FindUserResult {
 	location?: string;
 	birthday?: string;
 	userRole: UserRole;
-	isFriend?: true;
+	friendStatus: FriendStatus;
 	isSelf?: true;
 }
 
@@ -53,13 +53,14 @@ export const findUsers = async (query: QueryParams, searchAs: AuthenticatedUser)
 				userCode: record.user_code,
 				name: record.name,
 				active: record.active,
-				userRole: record.user_role
+				userRole: record.user_role,
+				friendStatus: record.friend_status
 			};
 
 			// Minimum needed visibility level needed to view a piece of data
 			const neededVisibility = (record.is_self || isPrivileged)
 				? PrivacyFlag.Private
-				: record.is_friend
+				: record.friend_status === FriendStatus.Friends
 					? PrivacyFlag.FriendsOnly
 					: PrivacyFlag.Public;
 
@@ -81,10 +82,6 @@ export const findUsers = async (query: QueryParams, searchAs: AuthenticatedUser)
 
 			if (record.is_self) {
 				result.isSelf = true;
-			}
-
-			if (record.is_friend) {
-				result.isFriend = true;
 			}
 
 			return result;

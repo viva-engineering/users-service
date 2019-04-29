@@ -1,4 +1,5 @@
 
+
 export { createCredentials, CreateCredentialsParams } from './auth/create-credentials';
 export { createSession, CreateSessionParams } from './auth/create-session';
 export { deleteSession, DeleteSessionParams } from './auth/delete-session';
@@ -7,6 +8,7 @@ export { getSession, GetSessionParams, GetSessionRecord } from './auth/get-sessi
 // export { updatePassword } from './auth/update-password';
 // export { updateMultiFactor } from './auth/update-multi-factor';
 
+export { FriendStatus } from './users/friend-status';
 export { createUser, CreateUserParams } from './users/create-user';
 export { getUserProfile, GetUserProfileParams, GetUserProfileRecord } from './users/get-user-profile';
 export { lookupUserIdByEmail, LookUserIdByEmailParams, LookupUserIdByEmailRecord } from './users/lookup-user-id-by-email';

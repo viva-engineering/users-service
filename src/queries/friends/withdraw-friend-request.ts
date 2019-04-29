@@ -15,7 +15,7 @@ export interface WithdrawFriendRequestParams {
  * Query that removes an existing friend connection
  */
 class WithdrawFriendRequestQuery extends WriteQuery<WithdrawFriendRequestParams> {
-	public readonly template = 'remove friend';
+	public readonly template = 'withdraw friend request';
 	protected readonly prepared = `
 		delete ${tables.friends}
 		from ${tables.friends}

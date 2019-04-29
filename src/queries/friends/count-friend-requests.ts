@@ -26,7 +26,7 @@ export interface CountFriendRequestsRecord {
  * Query that returns a total count of open friend requests that a user has
  */
 class CountFriendRequestsQuery extends SelectQuery<CountFriendRequestsParams, CountFriendRequestsRecord> {
-	public readonly template = 'count friends';
+	public readonly template = 'count friend requests';
 	protected readonly prepared = `
 		select
 		  count(friend.${friendIdsSubQuery.columns.userId}) as friend_count
